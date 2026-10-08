@@ -575,8 +575,8 @@ footer.pagefoot {
     </div>
     <div class="toc-group">
       <a class="toc-link" href="#why">What HOPS Is</a>
-      <a class="toc-link" href="#orientation">Three Phases</a>
-      <a class="toc-link" href="#ask">The Ask (Phase 3)</a>
+      <a class="toc-link" href="#orientation">How This Was Built</a>
+      <a class="toc-link" href="#ask">The Ask</a>
       <a class="toc-link" href="#dimensions">Setting the Foundation</a>
       <a class="toc-link" href="#audit">Phase 2: Auditing the Initial Index</a>
       <a class="toc-link" href="#evidence">Phase 2: Corrective Action</a>
@@ -607,8 +607,15 @@ footer.pagefoot {
       <span>&middot;</span>
       <span>2 build phases</span>
       <span>&middot;</span>
-      <span>Prepared 2026-08</span>
+      <span>Prepared 2026-08 &middot; updated 2026-10</span>
     </div>
+    <div class="callout" id="at-a-glance">
+      <p class="ctitle">Review at a glance</p>
+      <p><b>Time:</b> a full read is roughly 3 hours; a core path is roughly 60 to 90 minutes (Setting the Foundation, the five Known Limitations blocks, then the questions). With 30 minutes, answer Questions 01, 02 and 06. <span style="color:var(--ink-faint);">(Estimates, not yet timed with an outside reader.)</span></p>
+      <p><b>Deadline:</b> <span style="color:var(--ink-faint);">[DEADLINE: TBD]</span> &middot; <b>Questions about this package:</b> <span style="color:var(--ink-faint);">[CONTACT: TBD]</span> &middot; <b>Where to submit:</b> see <a href="#submit-feedback">How to Submit Feedback</a>.</p>
+      <p><b>Status of the data you are reviewing:</b> every Phase 2 value was collected by an AI agent working under written rules and checked by the agent's own verification steps. <b>No independent human error rate has been measured yet.</b> Whether that is acceptable, and what verification would make it so, is Question 04. Treat all scores as provisional.</p>
+    </div>
+
 
     <details class="accordion-section" id="why" open>
       <summary class="sec-summary"><span class="sec-summary-text">
@@ -659,9 +666,9 @@ footer.pagefoot {
     <details class="accordion-section" id="orientation">
       <summary class="sec-summary"><span class="sec-summary-text">
       <p class="kicker">How this was built</p>
-      <h2 class="section-title">Three Phases, One Index</h2>
+      <h2 class="section-title">Two Build Passes, Then This Review</h2>
       </span></summary>
-      <p class="section-dek">PSAI was assembled across three phases, two build passes and this review, using the same underlying tool throughout.</p>
+      <p class="section-dek">PSAI was assembled in two build passes (Phase 1 and Phase 2), followed by this review, using the same underlying tool throughout.</p>
 
       <div class="timeline">
         <div class="tl-item">
@@ -686,14 +693,14 @@ footer.pagefoot {
     <details class="accordion-section" id="ask">
       <summary class="sec-summary"><span class="sec-summary-text">
       <p class="kicker">What we need from you</p>
-      <h2 class="section-title">The Ask: Academic Review (a.k.a Phase 3)</h2>
+      <h2 class="section-title">The Ask: Academic Review</h2>
       </span></summary>
-      <p class="section-dek">Phase 1 set the foundation and tested how generative AI could perform the task. Phase 2 audited that work and applied a more targeted, data-driven approach to using AI. Phase 3 is this review: an outside academic read before either goes public. Specifically, reviewers are asked to:</p>
+      <p class="section-dek">Phase 1 set the foundation and tested how generative AI could perform the task. Phase 2 audited that work and applied a more targeted, data-driven approach to using AI. This review is an outside academic read before either goes public. Specifically, reviewers are asked to:</p>
       <ul class="rules-list">
-        <li><b>Rule on the six flagged open questions</b> in <a href="#questions">Questions for Reviewers</a>, especially the composite's zero-fill inconsistency and whether the dimension weights are defensible.</li>
+        <li><b>Respond to the six open questions</b> in <a href="#questions">Questions for Reviewers</a>, especially how missing data should be handled when the dimensions are combined, and how the dimension weights should be set and tested.</li>
         <li><b>Assess whether the Phase 2 methodology is sound</b>, dimension by dimension, given what the Phase 1 audit found (<a href="#evidence">Corrective Action</a>).</li>
-        <li><b>Judge whether the AI-assisted collection is an appropriate method</b> for a public civic index, and under what conditions.</li>
-        <li><b>Weigh a single composite score against five separate dimension scores</b> as the better way to report what PSAI measures.</li>
+        <li><b>Assess whether AI-assisted collection is an appropriate method</b> for a public civic index, and under what conditions.</li>
+        <li><b>Consider how results should be reported</b>: a single composite, five separate dimension scores, or both.</li>
         <li><b>Flag anything in the foundation</b>, the choice of five dimensions and how they're weighted, that a methodology rebuild alone cannot fix (<a href="#dimensions">Setting the Foundation</a>).</li>
       </ul>
 
@@ -705,6 +712,21 @@ footer.pagefoot {
         <li><label style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--ink-soft);"><input type="checkbox" disabled style="margin-top:0.3rem;"> <span>Browse <a href="#data-audit">State-by-State Data Audit</a> and the <a href="./results.html" target="_blank" rel="noopener">Results Dashboard</a> for concrete before/after examples by state.</span></label></li>
         <li><label style="display:flex; gap:0.6rem; align-items:flex-start; font-size:0.9rem; color:var(--ink-soft);"><input type="checkbox" disabled style="margin-top:0.3rem;"> <span>Answer the six items in <a href="#questions">Questions for Reviewers</a>, and <a href="#submit-feedback">submit your feedback here</a>.</span></label></li>
       </ul>
+      <details style="margin-top:1.5rem; border:1px solid var(--line); border-radius:6px; padding:0.75rem 1rem;">
+        <summary style="cursor:pointer; font-family:var(--sans); font-weight:600; font-size:0.92rem;">Glossary of terms used in this Dossier</summary>
+        <dl style="font-size:0.88rem; color:var(--ink-soft); margin:0.75rem 0 0; display:grid; gap:0.5rem;">
+          <div><dt style="display:inline;"><b>Phase 1 / Phase 2.</b></dt> <dd style="display:inline; margin:0;">Phase 1 is the original build. Phase 2 is the internal audit and rebuild (the "audit" or "rebuild" below). The outside academic review is what this package asks for.</dd></div>
+          <div><dt style="display:inline;"><b>D1 to D5.</b></dt> <dd style="display:inline; margin:0;">The five dimensions: Compensation, Workforce Health, Public Perception, Investment in People, Recognition.</dd></div>
+          <div><dt style="display:inline;"><b>Zero-fill.</b></dt> <dd style="display:inline; margin:0;">Entering 0 for a missing value, so the state is scored as if it had failed.</dd></div>
+          <div><dt style="display:inline;"><b>Rescale / renormalize.</b></dt> <dd style="display:inline; margin:0;">Dropping a missing value and re-dividing the remaining weights so they sum to 100%, so the state is scored on what it has.</dd></div>
+          <div><dt style="display:inline;"><b>Proxy.</b></dt> <dd style="display:inline; margin:0;">A measurable stand-in for something that is not directly measured (for example, news tone standing in for public perception).</dd></div>
+          <div><dt style="display:inline;"><b>Locator.</b></dt> <dd style="display:inline; margin:0;">The exact file, sheet and cell (or page) a value was read from.</dd></div>
+          <div><dt style="display:inline;"><b>Tier B / Tier C (D2 only).</b></dt> <dd style="display:inline; margin:0;">D2's two components (transparency and reported outcomes). Unrelated to the five performance tiers.</dd></div>
+          <div><dt style="display:inline;"><b>Tiers (Leading to Critical).</b></dt> <dd style="display:inline; margin:0;">Five score bands. Their cut points are set so that the 51 jurisdictions fall into roughly equal fifths (see Tier System).</dd></div>
+          <div><dt style="display:inline;"><b>Keep / Enhance / Rebuild.</b></dt> <dd style="display:inline; margin:0;">The three options the Phase 2 audit weighed for each dimension; all five were rebuilt.</dd></div>
+        </dl>
+      </details>
+
     </details>
 
     <details class="accordion-section" id="dimensions">
@@ -735,6 +757,16 @@ footer.pagefoot {
         <li><b>Recognition Infrastructure.</b> The lightest-weighted dimension by design: recognition programs reinforce the other four rather than substitute for them.</li>
       </ul>
       <p style="font-size:0.86rem; color:var(--ink-soft);">This foundation also excludes, explicitly: day-to-day workplace culture, individual mission alignment, career-advancement timing, rural versus urban conditions within a state, job security, and workload relative to staffing. None are measured in either phase, because no source publishes them comparably across all 51 jurisdictions.</p>
+      <div class="callout warn">
+        <p class="ctitle">Scope and limits to keep in mind</p>
+        <ul style="font-size:0.88rem; margin:0.4rem 0 0; padding-left:1.1rem; display:grid; gap:0.35rem;">
+          <li><b>State government only.</b> The index scores state-government workforces. Many of the teachers, firefighters and social workers HOPS interviews work for school districts or local governments, which are not measured here. Whether the state workforce is a fair stand-in for them is an open question.</li>
+          <li><b>No contextual controls.</b> State size, union coverage, labor-market tightness, fiscal capacity and workforce structure are not adjusted for. D.C. is a city-state compared on the same footing as the 50 states.</li>
+          <li><b>Mixed reference years.</b> Sources run from about 2022 to 2026 across dimensions. The index is a snapshot, not a single-year measure.</li>
+          <li><b>No criterion validity test yet.</b> Nothing yet shows whether scores predict an outside outcome such as turnover or retention. See Future Directions.</li>
+          <li><b>For public use.</b> Scores are provisional. Several low ranks reflect missing public data more than poor treatment of workers; please cite a score together with its coverage.</li>
+        </ul>
+      </div>
 
       <h3 style="font-family:var(--sans); font-size:1.05rem; margin-top:2rem;">Why These Weights</h3>
       <p style="font-size:0.9rem; color:var(--ink-soft);">Phase 1's stated logic: Compensation and Workforce Health carry the two highest weights as prerequisites, not peers, of the other three; without competitive pay and a stable workforce, the remaining factors become secondary. Public Perception is weighted next because it feeds recruitment and morale. Investment and Recognition are weighted lowest, treated as reinforcing signals rather than substitutes for the fundamentals. The weights themselves were pilot-tested rather than derived from data: Phase 1's version history records that compensation's outsized effect on scores became apparent during the pilot phase, with three states completed at the time the methodology locked (Maryland, Virginia, and Massachusetts, per Phase 1's own SOSI_Framework_v2.2.md), at which point the weights moved from equal-by-default to their current split and were locked. Phase 2 rebuilt how each dimension is <em>measured</em> but did not re-derive these cross-dimension weights, which is what <a href="#questions">reviewer question 02</a> below and D1's own internal weight-sensitivity test both flag as unresolved.</p>
@@ -870,7 +902,7 @@ footer.pagefoot {
         <p class="ctitle">The formula, unchanged between phases</p>
         <p><b>Composite = 0.30 &times; D1 + 0.28 &times; D2 + 0.22 &times; D3 + 0.15 &times; D4 + 0.05 &times; D5.</b> Both phases use this formula and these weights; what changed is what feeds into each dimension score, not how the five combine.</p>
       </div>
-      <p style="font-size:0.9rem; color:var(--ink-soft);">Where the phases genuinely differ is how a missing dimension value is handled before it reaches that formula. Phase 1's stated policy was to zero-fill a missing component; the audit found that policy inconsistently followed, sometimes zero-filled, sometimes silently replaced with an unsourced estimate. Every Phase 2 dimension excludes a missing indicator and rescales the remaining weights instead. That fix stops at the dimension boundary: the top-level file combining the five dimension scores (<a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/PSAI_CompositeScores_Rebuilt.xlsx" target="_blank" rel="noopener"><code>PSAI_CompositeScores_Rebuilt.xlsx</code></a>) still zero-fills for 9 states, the one place the old approach was not carried through the rebuild. See <a href="#questions">Question 01</a>, the item this review considers most in need of reviewer judgment.</p>
+      <p style="font-size:0.9rem; color:var(--ink-soft);">Where the phases genuinely differ is how a missing dimension value is handled before it reaches that formula. Phase 1's stated policy was to zero-fill a missing component; the audit found that policy inconsistently followed, sometimes zero-filled, sometimes silently replaced with an unsourced estimate. Every Phase 2 dimension excludes a missing indicator and rescales the remaining weights instead. That fix stops at the dimension boundary: the top-level file combining the five dimension scores (<a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/PSAI_CompositeScores_Rebuilt.xlsx" target="_blank" rel="noopener"><code>PSAI_CompositeScores_Rebuilt.xlsx</code></a>) still carries a 0 in one dimension for 9 states, the one place the old approach was not carried through the rebuild. Those zeros come from different situations, not one (see the table in <a href="#questions">Question 01</a>). We have left the file as it is, so that reviewers can weigh in on the rule before it changes.</p>
 
       <article class="exhibit" id="d1">
         <div class="exhibit-head">
@@ -886,6 +918,7 @@ footer.pagefoot {
             <span class="delta-arrow">&rarr;</span>
             <span class="delta-new">246 / 255 values verified, cell-level</span>
           </div>
+          <p style="font-size:0.82rem; color:var(--ink-faint); margin:0.4rem 0 0.9rem;">These two figures use different denominators. 13.3% is the Phase 2 audit of Phase 1: 20 of 150 sampled cells (30 states &times; 5). 246 / 255 is the Phase 2 rebuild's own check of its 255 evidence rows (51 states &times; 5) by the collector's double extraction. It is not an independent human audit (see Question 04).</p>
           <div class="phase-compare">
             <div class="phase-col p1">
               <span class="phase-tag p1">Phase 1 &middot; original build</span>
@@ -898,7 +931,6 @@ footer.pagefoot {
                 <li>State retirement-system pages (e.g. Maryland's UHR retirement page, VRS Virginia)</li>
                 <li>State Annual Personnel Reports, where published</li>
               </ul>
-              <span class="source-link">Full per-state citation lists: not yet migrated to GitHub (Phase 1 project, separate from this evidence repo)</span>
             </div>
             <div class="phase-col p2">
               <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
@@ -965,12 +997,11 @@ footer.pagefoot {
                 <li>No fixed source list: varied per state, cited with inconsistent rigor</li>
                 <li>Some real official pages (state DHRM/HR reports); some uncited estimates like Nebraska's</li>
               </ul>
-              <span class="source-link">Full per-state citation lists: not yet migrated to GitHub (Phase 1 project, separate from this evidence repo)</span>
             </div>
             <div class="phase-col p2">
               <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
               <p class="who">Claude Code collection agent, per-dimension rules</p>
-              <p>Turnover, vacancy, and tenure collected only from official state sources; missing data marked Missing and folds into a transparency score instead of being estimated. Five states (Ohio, Rhode Island, South Carolina, South Dakota, West Virginia) genuinely publish nothing usable and score zero, a real finding now, not a guess.</p>
+              <p>Turnover, vacancy, and tenure collected only from official state sources; missing data marked Missing and folds into a transparency score instead of being estimated. Five states (Ohio, Rhode Island, South Carolina, South Dakota, West Virginia) genuinely publish nothing usable and score zero on this dimension, by design (non-publication is scored as zero transparency), a documented result now, not a guess. The composite workbook carries this as a 0 for these five states (see Question 01).</p>
               <span class="src-list-label">The sources (by design, no fixed list)</span>
               <ul class="src-list">
                 <li>Each state's own official workforce/HR agency report: different agency, different URL per state, deliberately (no single national database publishes this)</li>
@@ -1026,7 +1057,6 @@ footer.pagefoot {
               <ul class="src-list">
                 <li>Roanoke College Poll, UMBC Institute of Politics, Goucher College Poll, High Point University Poll, MassINC/WBUR: real named polls, but mixed inconsistently with official-recognition pages and officials-approval questions</li>
               </ul>
-              <span class="source-link">Full per-state citation lists: not yet migrated to GitHub (Phase 1 project, separate from this evidence repo)</span>
             </div>
             <div class="phase-col p2">
               <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
@@ -1086,7 +1116,6 @@ footer.pagefoot {
               <ul class="src-list">
                 <li>No consistently named source: training-budget figures inferred from loosely related web pages, confirmed as unsupported when both Claude and ChatGPT were asked to independently verify them during the audit</li>
               </ul>
-              <span class="source-link">Full per-state citation lists: not yet migrated to GitHub (Phase 1 project, separate from this evidence repo)</span>
             </div>
             <div class="phase-col p2">
               <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
@@ -1095,7 +1124,7 @@ footer.pagefoot {
               <span class="src-list-label">The exact sources (2, named)</span>
               <ul class="src-list">
                 <li><b>National CPM Consortium</b>: member roster, cross-checked against each state's own program page (e.g. aum.edu, doa.alaska.gov, asu.edu program pages)</li>
-                <li><b>Center for Digital Government</b>: 2024 Digital States Survey results, accessed via GovTech (https://www.govtech.com/digital-states-survey-2024-results-announced, same report for all 50 states; D.C. is excluded from the survey, and although a substitute source was logged, D.C.'s Digital States points, D4 score, and composite contribution are all intentionally left blank per the methodology, not scored via a substitute)</li>
+                <li><b>Center for Digital Government</b>: 2024 Digital States Survey results, accessed via GovTech (https://www.govtech.com/digital-states-survey-2024-results-announced, same report for all 50 states; D.C. is excluded from the survey, and although a substitute source was logged, D.C.'s Digital States points and D4 score are left blank in the D4 methodology, not scored via a substitute. The composite workbook, however, carries D4 = 0.0 for D.C., so D.C. is currently zero-filled there; see Question 01)</li>
               </ul>
               <span class="src-list-label">The formula: PD-function count as the base, two small bonuses on top</span>
               <ul class="src-list">
@@ -1145,7 +1174,6 @@ footer.pagefoot {
               <ul class="src-list">
                 <li>Opaque internal reference tokens (e.g. <code>&#12304;599618054233774&dagger;L24-L27&#12305;</code>) that resolve to nothing: zero of 51 states had a fetchable source</li>
               </ul>
-              <span class="source-link">Full per-state citation lists: not yet migrated to GitHub (Phase 1 project, separate from this evidence repo)</span>
             </div>
             <div class="phase-col p2">
               <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
@@ -1200,9 +1228,13 @@ footer.pagefoot {
       </div>
       <p style="font-size:0.85rem; color:var(--ink-faint); margin-top:0.6rem;">Phase 1's own site named the bottom tier "Lagging" in the Framework page copy but "Critical" in the underlying data file, a minor inconsistency worth noting if the authoritative name is ever in question.</p>
 
+            <div class="callout">
+        <p class="ctitle">Tiers are relative</p>
+        <p>The cut points were set from the same rebuilt scores they classify, so each tier holds about a fifth of jurisdictions by construction. A "Critical" label therefore means "lowest fifth of this index," not a failure against an external standard.</p>
+      </div>
       <div class="callout">
-        <p class="ctitle">On the source-link placeholders</p>
-        <p>Every per-dimension evidence file and agent definition cited above now links to <a href="https://github.com/humansofpublicservice/psai-phase3" target="_blank" rel="noopener">the public HOPS evidence repo</a> (<code>humansofpublicservice/psai-phase3</code> on GitHub), mirroring the evidence, methodology, and agent-definition files behind this dossier. The "Full per-state citation lists" from Phase 1 are not yet in this repo, since Phase 1's own project has not been migrated to the HOPS GitHub org.</p>
+        <p class="ctitle">Note on Phase 1 citation lists (applies to every dimension)</p>
+        <p>Every per-dimension evidence file and agent definition cited above now links to <a href="https://github.com/humansofpublicservice/psai-phase3" target="_blank" rel="noopener">the public HOPS evidence repo</a> (<code>humansofpublicservice/psai-phase3</code> on GitHub), mirroring the evidence, methodology, and agent-definition files behind this dossier. The Phase 1 per-state citation lists are not in this repo, since Phase 1's own project has not been migrated to the HOPS GitHub org. This does not affect review of Phase 2: all Phase 2 evidence is here. It only limits side-by-side checking of Phase 1 claims.</p>
       </div>
     </details>
 
@@ -1280,43 +1312,76 @@ footer.pagefoot {
       <p class="kicker">What we'd like your judgment on</p>
       <h2 class="section-title">Questions for Reviewers</h2>
       </span></summary>
-      <p class="section-dek">Questions spanning more than one dimension, or sitting above all five. Questions 01 and 02 are where an outside, expert view is most valued. Answer these in the <a href="#submit-feedback">response template</a>.</p>
+      <p class="section-dek">Questions spanning more than one dimension, or sitting above all five. Questions 01, 02 and 06 are where an outside, expert view is most valued. Each ends with a line labeled "Our current thinking": it is there for transparency, and you should feel free to disagree with it or ignore it. Answer these in the <a href="#submit-feedback">response template</a>.</p>
 
       <div class="qlist">
         <div class="qcard flag">
           <div class="qnum">01 &middot; OPEN DESIGN QUESTION</div>
-          <div class="qtitle">What's the right way to handle missing data at the composite level?</div>
-          <p>Every dimension rebuild enforces the same principle: never score missing data as zero. But the top-level composite file that produces the public rankings contains the note "zeros used as a placeholder for unavailable or insufficient data," scoring at least 9 states as if a dimension had failed outright when the real issue is that no usable source exists for it. For one of them (South Carolina), reversing that placeholder and renormalizing the remaining weights moves its composite up a full tier, not merely close to a boundary. What's the best way to handle this: a fix that doesn't score an unmeasured dimension as a zero the state never actually earned, but also doesn't quietly inflate a state's score by letting a weak, unmeasured area disappear from the average entirely?</p>
+          <div class="qtitle">How should missing data be handled when dimension scores are combined into the composite?</div>
+          <p>Within each dimension, a missing indicator is dropped and the remaining weights are rescaled; nothing is scored as zero. The composite workbook behaves differently: it carries a 0 in one dimension for 9 states, with the note "zeros used as a placeholder for unavailable or insufficient data." The table shows that these zeros arise from different situations, and what each state's composite would be under the two simple alternatives (keep the 0, or drop the dimension and rescale).</p>
+          <div style="overflow-x:auto;"><table class="tier-compare-table" style="font-size:0.8rem;">
+<thead><tr><th>State</th><th>Dim.</th><th>Why it is 0 (from the project files)</th><th>Composite with the 0 (tier)</th><th>Composite with that dimension dropped and weights rescaled (tier)</th></tr></thead>
+<tbody>
+<tr><td>Ohio</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>39.4 (Critical)</td><td>54.7 (Developing)</td></tr>
+<tr><td>Rhode Island</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>48.5 (Emerging)</td><td>67.3 (Leading)</td></tr>
+<tr><td>South Carolina</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>43.5 (Critical)</td><td>60.5 (Strong)</td></tr>
+<tr><td>South Dakota</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>54.1 (Developing)</td><td>75.2 (Leading)</td></tr>
+<tr><td>West Virginia</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>32.7 (Critical)</td><td>45.4 (Critical)</td></tr>
+<tr><td>District of Columbia</td><td>D4</td><td>Blank in D4 methodology (not in the Digital States survey); carried as 0.0 in the composite</td><td>40.3 (Critical)</td><td>47.4 (Emerging)</td></tr>
+<tr><td>Minnesota</td><td>D5</td><td>Five indicators checked and answered NO, one could not be checked (per D5 evidence file)</td><td>67.6 (Leading)</td><td>71.2 (Leading)</td></tr>
+<tr><td>Michigan</td><td>D5</td><td>Two of six indicators answered; coverage 30 of 100 points; D5 methodology says this "almost certainly understates"</td><td>58.3 (Strong)</td><td>61.4 (Strong)</td></tr>
+<tr><td>Vermont</td><td>D5</td><td>All six indicators could not be checked (every source domain refused requests); D5 methodology says no score is possible</td><td>52.9 (Developing)</td><td>55.7 (Developing)</td></tr>
+</tbody></table></div>
+          <p>The gap can be large. South Carolina is 43.5 (Critical) with the 0 and 60.5 (Strong) without it, a difference of three tiers. Keeping the 0 treats an unmeasured dimension as a failure; dropping it lets a state be judged only on what it publishes.</p>
+          <p><b>Questions:</b> (a) What rule would you use for these states? (b) Should "the state publishes nothing" (D2's design choice), "we could not check" (D5's Vermont) and "the state is outside the source's scope" (D.C. in D4) be treated differently from one another? (c) Below what coverage, if any, should a state get a composite at all, an interval, or no composite?</p>
+          <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> we lean toward not publishing a single point value for states in this situation (an interval, or a "partially scored" flag), but we have not adopted a rule, and have left the file unchanged so reviewers can advise. Recomputing these figures: <code>composite/robustness.py</code>.</p>
         </div>
 
         <div class="qcard">
           <div class="qnum">02</div>
-          <div class="qtitle">Are the dimension weights (30/28/22/15/5) defensible, and how would we know?</div>
-          <p>They were chosen, not derived: Dimension 1's own methodology says so plainly, then stress-tests its <em>internal</em> weights with a 2,000-run sensitivity analysis. No equivalent test exists for the weights across the five dimensions themselves. Given Dimension 1 alone is 30% of the score, does the ranking hold if the dimension weights are nudged the way D1's own indicators were?</p>
+          <div class="qtitle">How should the dimension weights (30/28/22/15/5) be set and tested?</div>
+          <p>The weights were chosen after a three-state pilot, not derived from data. Dimension 1 stress-tests its <em>internal</em> weights with a 2,000-run sensitivity analysis; until now there was no equivalent across the five dimensions. We have now run one (<a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/robustness.py" target="_blank" rel="noopener"><code>composite/robustness.py</code></a>, output in <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/robustness_results.json" target="_blank" rel="noopener"><code>robustness_results.json</code></a>): each weight is multiplied by a random factor between 0.7 and 1.3, then the weights are renormalized, 2,000 times, on the published scores.</p>
+          <ul style="font-size:0.88rem; color:var(--ink-soft); padding-left:1.1rem; margin:0.4rem 0;">
+            <li>The median state stays in its published tier in 90% of draws, and 26 of 51 states stay in their tier in at least 90% of draws.</li>
+            <li>The middle 90% of a typical state's rank draws spans about 5 places. Illinois is 1st or 2nd in nearly every draw; Pennsylvania (8th as published) spans 5th to 10th.</li>
+            <li>Rank agreement between the published weights and equal weights is Spearman 0.77.</li>
+            <li>Influence is not the same as weight. Weight times the spread of scores (SD) is largest for D2 (6.9), then D1 (4.4), D4 (2.7), D3 (2.6) and D5 (1.5). D2's SD includes its five zeros.</li>
+          </ul>
+          <p>These results use the published scores, including the zeros discussed in Question 01.</p>
+          <p><b>Questions:</b> Is this kind of check adequate for weights chosen by judgment? What else would you want to see: an alternative weighting method, a criterion-based approach, or something else? Do the results suggest the weights are defensible?</p>
+          <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> a robustness analysis is enough at this stage, and we are not claiming the weights are derived. We want reviewers' view on what would count as a defensible weighting.</p>
         </div>
 
         <div class="qcard">
           <div class="qnum">03</div>
-          <div class="qtitle">Does rescaling for missing data quietly reward not measuring?</div>
-          <p>When a state is missing a metric, its remaining weights are rescaled to what it has (rather than zero-filled). That's clearly better than the alternative, but it also means a state that doesn't publish a metric it would have scored badly on is never penalized for that metric at all. Is rescaling the right general policy, and does it need a stated limit (e.g. a minimum coverage threshold below which a dimension isn't scored at all, as Dimension 5's own coverage-floor mechanism could enforce, though it's currently set to zero and withholds nothing)?</p>
+          <div class="qtitle">What policy should govern rescaling when an indicator is missing?</div>
+          <p>When a state is missing a metric, its remaining weights are rescaled to what it has (rather than zero-filled). A state that does not publish a metric it would have scored badly on is then never penalized for it. Rescaling is the policy in every dimension; Dimension 5 also has a minimum-coverage mechanism (publish no score if checked coverage is below 50 of 100 points), but it is currently set to 0 and withholds nothing.</p>
+          <p><b>Questions:</b> Is rescaling the right general policy? Does it need a stated limit such as a minimum coverage, and if so, where? How should a state's coverage be shown alongside its score?</p>
+          <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> we think rescaling is better than zero-fill, but we do not know where a coverage limit should sit. We have not decided whether to switch the D5 floor on.</p>
         </div>
 
         <div class="qcard">
           <div class="qnum">04</div>
-          <div class="qtitle">Is AI-based collection the right method here at all, under what conditions?</div>
-          <p>Every dimension's fix is a stricter evidentiary process wrapped around the same underlying method: an AI agent doing the searching, reading, and scoring. The discipline is real and the rebuild is a large improvement. But whether generative AI is an appropriate primary-collection method for a public civic index at all, and what independent human verification rate would make that defensible, isn't addressed head-on anywhere in the source material. This seems squarely a question for this audience.</p>
+          <div class="qtitle">Under what conditions, if any, is AI-assisted collection appropriate for a public civic index?</div>
+          <p>Every dimension's fix is a stricter evidentiary process wrapped around the same underlying method: an AI agent doing the searching, reading, and scoring, with its own checks (double extraction, re-opening sampled sources, required quotes). Those checks show internal consistency; they are not an independent measure of correctness. <b>No human-verified error rate exists yet.</b> One documented case shows the limits of agent-side checks: D4's instructions say to expect about 40 states with a CPM program, the data show 21, and nothing in the files shows the gap being flagged.</p>
+          <p><b>Questions:</b> Is AI-assisted primary collection acceptable for this purpose at all? If so, what independent verification (sample size, blindness, error threshold, reporting) would make it defensible? What should be disclosed to readers in the meantime?</p>
+          <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> we expect to need a blind, human-checked random sample (we have sketched about 10% of evidence cells, stratified by dimension, with a pass/fail threshold set in advance) and a re-run to test reproducibility. We would like your view on whether that is the right design before we run it.</p>
         </div>
 
         <div class="qcard">
           <div class="qnum">05</div>
-          <div class="qtitle">Five different local conventions for "this number rests on thinner evidence"</div>
-          <p>Dimension 1 uses asterisks and a stability range; Dimension 2 has a hard zero for five non-publishing states; Dimension 3 has a strict never-merge rule between two groups; Dimension 5 has a coverage percentage and a status column. Each is well-reasoned on its own, but a reader has to learn five separate systems. Would a single shared visual/statistical convention for evidentiary confidence, applied consistently across all five dimensions, serve readers better?</p>
+          <div class="qtitle">Should there be one shared convention for "this number rests on thinner evidence"?</div>
+          <p>Dimension 1 uses asterisks and a stability range; Dimension 2 gives a zero to five non-publishing states; Dimension 3 never merges its two groups; Dimension 5 shows a coverage percentage and a status column. Each is reasoned for its own dimension, but a reader has to learn five systems. A single shared convention could make dimensions easier to compare, but could also hide differences that matter within a dimension.</p>
+          <p><b>Question:</b> Would a single convention serve readers better, and if so, what should it show?</p>
+          <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> we lean toward a shared minimum (a coverage percentage and a confidence grade shown the same way everywhere), with dimension-specific detail kept in the methodology documents.</p>
         </div>
 
         <div class="qcard">
-          <div class="qnum">06 &middot; THE AUDIT'S OWN RECOMMENDATION</div>
-          <div class="qtitle">Should PSAI report five dimensions separately instead of one blended composite?</div>
-          <p>This review recommends reporting the five dimensions separately rather than blending them into one composite score, a direction the Phase 2 audit's own documentation already pointed to: <em>"Dimensions can also be reported separately rather than as one score... Averaging the two dimensions hides which dimension is primarily driving a state's rank."</em> Compensation (D1) is measured on universally-published federal data; Public Perception (D3) rests on proxies that can be politically skewed. Blending them into one number obscures that difference. A state could rank low overall for reasons that are entirely about missing polling data, not actual treatment of its workforce. Worth reviewers' judgment on whether the single composite should become secondary to the five dimension scores, rather than the other way around.</p>
+          <div class="qnum">06</div>
+          <div class="qtitle">How should PSAI report results: five dimension scores, one composite, or both?</div>
+          <p>The Phase 2 audit's own documentation noted: <em>"Dimensions can also be reported separately rather than as one score... Averaging the two dimensions hides which dimension is primarily driving a state's rank."</em> Arguments for separate scores: Compensation (D1) rests on universally published federal data while Public Perception (D3) rests on proxies that may be politically skewed, and a state could rank low overall purely because polling is missing. Arguments for a composite: it is a single, easily communicated number, and our robustness check suggests that the top and bottom of the ranking are fairly stable. For the data itself: the five dimension scores are close to uncorrelated with one another (the largest correlation is 0.37, between D4 and D5; most are below 0.25 in absolute value), which can be read either as "the composite averages unrelated things" or as "each dimension adds independent information."</p>
+          <p><b>Question:</b> Should the composite be primary, secondary, or omitted? If kept, what should accompany it (intervals, bands, coverage)?</p>
+          <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> the audit leaned toward five dimension scores as the primary result with the composite as secondary. HOPS has not decided.</p>
         </div>
       </div>
     </details>
@@ -1329,13 +1394,13 @@ footer.pagefoot {
       <p class="section-dek">All reviewer feedback goes through one response template: a Google Doc that mirrors this Dossier's structure. It carries the six <a href="#questions">Questions for Reviewers</a>, a short prompt for each dimension, and open space for freeform notes and anything the Dossier should have asked but did not.</p>
       <ol style="font-size:0.9rem; color:var(--ink-soft); margin:1rem 0 1.25rem; padding-left:1.3rem; display:grid; gap:0.5rem;">
         <li>Open the <b><a href="https://docs.google.com/document/d/1bWLr1T-nad4pQMBlO8dVXn6_GU7s0L_Fj8piPuOD9IY/copy" target="_blank" rel="noopener">PSAI Review Response Template</a></b>. It opens a "Copy document" dialog.</li>
-        <li>Name your copy <b>LASTNAME_FIRSTNAME_Phase_3_Feedback</b> and set the folder to the <b>shared review folder</b> <span style="color:var(--ink-faint);">[link pending]</span>, then make the copy.</li>
+        <li>Name your copy <b>LASTNAME_FIRSTNAME_PSAI_Review_Feedback</b> and set the folder to the <b>shared review folder</b> <span style="color:var(--ink-faint);">[SHARED FOLDER LINK: TBD]</span>, then make the copy.</li>
         <li>Fill in the sections that fall in your area of expertise and skip the rest. Partial responses are useful.</li>
-        <li>Leave your finished copy in the shared folder by the deadline. Nothing else to send.</li>
+        <li>Leave your finished copy in the shared folder by <span style="color:var(--ink-faint);">[DEADLINE: TBD]</span>. Nothing else to send.</li>
       </ol>
       <div class="callout draft">
-        <p class="ctitle">Being finalized</p>
-        <p>The shared review folder, the response deadline, and a contact for questions are being set now and will appear here shortly.</p>
+        <p class="ctitle">Placeholders to be filled before this page goes to reviewers</p>
+        <p>Shared review folder: <b>[LINK: TBD]</b> &middot; Response deadline: <b>[DATE: TBD]</b> &middot; Contact for questions: <b>[NAME / EMAIL: TBD]</b></p>
       </div>
     </details>
 

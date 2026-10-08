@@ -1,0 +1,739 @@
+{
+ "settings": {
+  "perturb": 0.3,
+  "draws": 2000,
+  "seed": 20260801
+ },
+ "zero_cases": [
+  {
+   "state": "District of Columbia",
+   "zero_dims": [
+    "D4"
+   ],
+   "zero_fill": 40.3,
+   "tier_zero_fill": "Critical",
+   "renormalized": 47.4,
+   "tier_renormalized": "Emerging"
+  },
+  {
+   "state": "Michigan",
+   "zero_dims": [
+    "D5"
+   ],
+   "zero_fill": 58.3,
+   "tier_zero_fill": "Strong",
+   "renormalized": 61.4,
+   "tier_renormalized": "Strong"
+  },
+  {
+   "state": "Minnesota",
+   "zero_dims": [
+    "D5"
+   ],
+   "zero_fill": 67.6,
+   "tier_zero_fill": "Leading",
+   "renormalized": 71.2,
+   "tier_renormalized": "Leading"
+  },
+  {
+   "state": "Ohio",
+   "zero_dims": [
+    "D2"
+   ],
+   "zero_fill": 39.4,
+   "tier_zero_fill": "Critical",
+   "renormalized": 54.7,
+   "tier_renormalized": "Developing"
+  },
+  {
+   "state": "Rhode Island",
+   "zero_dims": [
+    "D2"
+   ],
+   "zero_fill": 48.5,
+   "tier_zero_fill": "Emerging",
+   "renormalized": 67.3,
+   "tier_renormalized": "Leading"
+  },
+  {
+   "state": "South Carolina",
+   "zero_dims": [
+    "D2"
+   ],
+   "zero_fill": 43.5,
+   "tier_zero_fill": "Critical",
+   "renormalized": 60.5,
+   "tier_renormalized": "Strong"
+  },
+  {
+   "state": "South Dakota",
+   "zero_dims": [
+    "D2"
+   ],
+   "zero_fill": 54.1,
+   "tier_zero_fill": "Developing",
+   "renormalized": 75.2,
+   "tier_renormalized": "Leading"
+  },
+  {
+   "state": "Vermont",
+   "zero_dims": [
+    "D5"
+   ],
+   "zero_fill": 52.9,
+   "tier_zero_fill": "Developing",
+   "renormalized": 55.7,
+   "tier_renormalized": "Developing"
+  },
+  {
+   "state": "West Virginia",
+   "zero_dims": [
+    "D2"
+   ],
+   "zero_fill": 32.7,
+   "tier_zero_fill": "Critical",
+   "renormalized": 45.4,
+   "tier_renormalized": "Critical"
+  }
+ ],
+ "equal_weights_spearman": 0.77,
+ "median_rank_range_p5_p95": 5,
+ "median_pct_same_tier": 90,
+ "influence": [
+  {
+   "dim": "D1",
+   "weight": 0.3,
+   "mean": 61.9,
+   "sd": 14.6,
+   "weight_x_sd": 4.38
+  },
+  {
+   "dim": "D2",
+   "weight": 0.28,
+   "mean": 49.1,
+   "sd": 24.7,
+   "weight_x_sd": 6.91
+  },
+  {
+   "dim": "D3",
+   "weight": 0.22,
+   "mean": 35.4,
+   "sd": 11.8,
+   "weight_x_sd": 2.59
+  },
+  {
+   "dim": "D4",
+   "weight": 0.15,
+   "mean": 75.0,
+   "sd": 17.8,
+   "weight_x_sd": 2.67
+  },
+  {
+   "dim": "D5",
+   "weight": 0.05,
+   "mean": 63.7,
+   "sd": 30.6,
+   "weight_x_sd": 1.53
+  }
+ ],
+ "correlations": [
+  [
+   1.0,
+   0.09,
+   0.03,
+   0.1,
+   -0.17
+  ],
+  [
+   0.09,
+   1.0,
+   -0.24,
+   -0.01,
+   -0.01
+  ],
+  [
+   0.03,
+   -0.24,
+   1.0,
+   -0.02,
+   0.08
+  ],
+  [
+   0.1,
+   -0.01,
+   -0.02,
+   1.0,
+   0.37
+  ],
+  [
+   -0.17,
+   -0.01,
+   0.08,
+   0.37,
+   1.0
+  ]
+ ],
+ "per_state": [
+  {
+   "state": "Illinois",
+   "composite": 71.1,
+   "rank": 1,
+   "tier": "Leading",
+   "rank_p5": 1,
+   "rank_p95": 2,
+   "rank_min": 1,
+   "rank_max": 3,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "California",
+   "composite": 70.7,
+   "rank": 2,
+   "tier": "Leading",
+   "rank_p5": 1,
+   "rank_p95": 4,
+   "rank_min": 1,
+   "rank_max": 4,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Nevada",
+   "composite": 69.6,
+   "rank": 3,
+   "tier": "Leading",
+   "rank_p5": 2,
+   "rank_p95": 6,
+   "rank_min": 1,
+   "rank_max": 6,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "New Jersey",
+   "composite": 68.6,
+   "rank": 4,
+   "tier": "Leading",
+   "rank_p5": 3,
+   "rank_p95": 7,
+   "rank_min": 1,
+   "rank_max": 8,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Oregon",
+   "composite": 68.5,
+   "rank": 5,
+   "tier": "Leading",
+   "rank_p5": 4,
+   "rank_p95": 6,
+   "rank_min": 3,
+   "rank_max": 7,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Wisconsin",
+   "composite": 68.4,
+   "rank": 6,
+   "tier": "Leading",
+   "rank_p5": 3,
+   "rank_p95": 8,
+   "rank_min": 2,
+   "rank_max": 8,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Minnesota",
+   "composite": 67.6,
+   "rank": 7,
+   "tier": "Leading",
+   "rank_p5": 3,
+   "rank_p95": 8,
+   "rank_min": 3,
+   "rank_max": 9,
+   "pct_draws_same_tier": 99
+  },
+  {
+   "state": "Pennsylvania",
+   "composite": 66.4,
+   "rank": 8,
+   "tier": "Leading",
+   "rank_p5": 5,
+   "rank_p95": 10,
+   "rank_min": 3,
+   "rank_max": 12,
+   "pct_draws_same_tier": 99
+  },
+  {
+   "state": "Iowa",
+   "composite": 64.3,
+   "rank": 9,
+   "tier": "Leading",
+   "rank_p5": 8,
+   "rank_p95": 11,
+   "rank_min": 7,
+   "rank_max": 12,
+   "pct_draws_same_tier": 88
+  },
+  {
+   "state": "Maryland",
+   "composite": 63.2,
+   "rank": 10,
+   "tier": "Leading",
+   "rank_p5": 9,
+   "rank_p95": 12,
+   "rank_min": 8,
+   "rank_max": 17,
+   "pct_draws_same_tier": 76
+  },
+  {
+   "state": "North Dakota",
+   "composite": 63.2,
+   "rank": 11,
+   "tier": "Leading",
+   "rank_p5": 9,
+   "rank_p95": 12,
+   "rank_min": 8,
+   "rank_max": 13,
+   "pct_draws_same_tier": 84
+  },
+  {
+   "state": "North Carolina",
+   "composite": 61.2,
+   "rank": 12,
+   "tier": "Strong",
+   "rank_p5": 10,
+   "rank_p95": 18,
+   "rank_min": 9,
+   "rank_max": 21,
+   "pct_draws_same_tier": 62
+  },
+  {
+   "state": "Massachusetts",
+   "composite": 60.1,
+   "rank": 13,
+   "tier": "Strong",
+   "rank_p5": 13,
+   "rank_p95": 17,
+   "rank_min": 12,
+   "rank_max": 19,
+   "pct_draws_same_tier": 92
+  },
+  {
+   "state": "Alabama",
+   "composite": 60.1,
+   "rank": 14,
+   "tier": "Strong",
+   "rank_p5": 13,
+   "rank_p95": 16,
+   "rank_min": 12,
+   "rank_max": 18,
+   "pct_draws_same_tier": 98
+  },
+  {
+   "state": "New Mexico",
+   "composite": 59.3,
+   "rank": 15,
+   "tier": "Strong",
+   "rank_p5": 12,
+   "rank_p95": 21,
+   "rank_min": 11,
+   "rank_max": 24,
+   "pct_draws_same_tier": 87
+  },
+  {
+   "state": "Montana",
+   "composite": 59.2,
+   "rank": 16,
+   "tier": "Strong",
+   "rank_p5": 13,
+   "rank_p95": 19,
+   "rank_min": 12,
+   "rank_max": 20,
+   "pct_draws_same_tier": 94
+  },
+  {
+   "state": "Idaho",
+   "composite": 59.0,
+   "rank": 17,
+   "tier": "Strong",
+   "rank_p5": 15,
+   "rank_p95": 20,
+   "rank_min": 13,
+   "rank_max": 24,
+   "pct_draws_same_tier": 92
+  },
+  {
+   "state": "Michigan",
+   "composite": 58.3,
+   "rank": 18,
+   "tier": "Strong",
+   "rank_p5": 14,
+   "rank_p95": 24,
+   "rank_min": 12,
+   "rank_max": 29,
+   "pct_draws_same_tier": 77
+  },
+  {
+   "state": "Wyoming",
+   "composite": 58.2,
+   "rank": 19,
+   "tier": "Strong",
+   "rank_p5": 17,
+   "rank_p95": 21,
+   "rank_min": 15,
+   "rank_max": 23,
+   "pct_draws_same_tier": 93
+  },
+  {
+   "state": "New York",
+   "composite": 57.7,
+   "rank": 20,
+   "tier": "Strong",
+   "rank_p5": 15,
+   "rank_p95": 24,
+   "rank_min": 14,
+   "rank_max": 28,
+   "pct_draws_same_tier": 66
+  },
+  {
+   "state": "Tennessee",
+   "composite": 57.2,
+   "rank": 21,
+   "tier": "Strong",
+   "rank_p5": 15,
+   "rank_p95": 26,
+   "rank_min": 11,
+   "rank_max": 28,
+   "pct_draws_same_tier": 51
+  },
+  {
+   "state": "Washington",
+   "composite": 56.7,
+   "rank": 22,
+   "tier": "Developing",
+   "rank_p5": 18,
+   "rank_p95": 26,
+   "rank_min": 16,
+   "rank_max": 29,
+   "pct_draws_same_tier": 55
+  },
+  {
+   "state": "Delaware",
+   "composite": 55.9,
+   "rank": 23,
+   "tier": "Developing",
+   "rank_p5": 20,
+   "rank_p95": 26,
+   "rank_min": 17,
+   "rank_max": 28,
+   "pct_draws_same_tier": 79
+  },
+  {
+   "state": "Alaska",
+   "composite": 55.4,
+   "rank": 24,
+   "tier": "Developing",
+   "rank_p5": 22,
+   "rank_p95": 28,
+   "rank_min": 20,
+   "rank_max": 33,
+   "pct_draws_same_tier": 74
+  },
+  {
+   "state": "Virginia",
+   "composite": 55.2,
+   "rank": 25,
+   "tier": "Developing",
+   "rank_p5": 23,
+   "rank_p95": 27,
+   "rank_min": 21,
+   "rank_max": 30,
+   "pct_draws_same_tier": 90
+  },
+  {
+   "state": "South Dakota",
+   "composite": 54.1,
+   "rank": 26,
+   "tier": "Developing",
+   "rank_p5": 17,
+   "rank_p95": 36,
+   "rank_min": 12,
+   "rank_max": 41,
+   "pct_draws_same_tier": 52
+  },
+  {
+   "state": "Kentucky",
+   "composite": 53.2,
+   "rank": 27,
+   "tier": "Developing",
+   "rank_p5": 27,
+   "rank_p95": 30,
+   "rank_min": 26,
+   "rank_max": 32,
+   "pct_draws_same_tier": 88
+  },
+  {
+   "state": "Connecticut",
+   "composite": 53.1,
+   "rank": 28,
+   "tier": "Developing",
+   "rank_p5": 22,
+   "rank_p95": 34,
+   "rank_min": 21,
+   "rank_max": 37,
+   "pct_draws_same_tier": 65
+  },
+  {
+   "state": "Vermont",
+   "composite": 52.9,
+   "rank": 29,
+   "tier": "Developing",
+   "rank_p5": 23,
+   "rank_p95": 38,
+   "rank_min": 21,
+   "rank_max": 43,
+   "pct_draws_same_tier": 63
+  },
+  {
+   "state": "New Hampshire",
+   "composite": 52.8,
+   "rank": 30,
+   "tier": "Developing",
+   "rank_p5": 24,
+   "rank_p95": 36,
+   "rank_min": 20,
+   "rank_max": 38,
+   "pct_draws_same_tier": 71
+  },
+  {
+   "state": "Hawaii",
+   "composite": 52.0,
+   "rank": 31,
+   "tier": "Developing",
+   "rank_p5": 27,
+   "rank_p95": 35,
+   "rank_min": 25,
+   "rank_max": 37,
+   "pct_draws_same_tier": 51
+  },
+  {
+   "state": "Mississippi",
+   "composite": 51.8,
+   "rank": 32,
+   "tier": "Emerging",
+   "rank_p5": 26,
+   "rank_p95": 36,
+   "rank_min": 21,
+   "rank_max": 38,
+   "pct_draws_same_tier": 54
+  },
+  {
+   "state": "Maine",
+   "composite": 51.3,
+   "rank": 33,
+   "tier": "Emerging",
+   "rank_p5": 30,
+   "rank_p95": 35,
+   "rank_min": 29,
+   "rank_max": 37,
+   "pct_draws_same_tier": 73
+  },
+  {
+   "state": "Indiana",
+   "composite": 51.2,
+   "rank": 34,
+   "tier": "Emerging",
+   "rank_p5": 30,
+   "rank_p95": 36,
+   "rank_min": 27,
+   "rank_max": 37,
+   "pct_draws_same_tier": 68
+  },
+  {
+   "state": "Colorado",
+   "composite": 50.7,
+   "rank": 35,
+   "tier": "Emerging",
+   "rank_p5": 31,
+   "rank_p95": 37,
+   "rank_min": 30,
+   "rank_max": 39,
+   "pct_draws_same_tier": 94
+  },
+  {
+   "state": "Kansas",
+   "composite": 50.0,
+   "rank": 36,
+   "tier": "Emerging",
+   "rank_p5": 32,
+   "rank_p95": 38,
+   "rank_min": 30,
+   "rank_max": 38,
+   "pct_draws_same_tier": 94
+  },
+  {
+   "state": "Arkansas",
+   "composite": 48.7,
+   "rank": 37,
+   "tier": "Emerging",
+   "rank_p5": 33,
+   "rank_p95": 41,
+   "rank_min": 29,
+   "rank_max": 42,
+   "pct_draws_same_tier": 92
+  },
+  {
+   "state": "Rhode Island",
+   "composite": 48.5,
+   "rank": 38,
+   "tier": "Emerging",
+   "rank_p5": 30,
+   "rank_p95": 43,
+   "rank_min": 23,
+   "rank_max": 46,
+   "pct_draws_same_tier": 52
+  },
+  {
+   "state": "Nebraska",
+   "composite": 47.4,
+   "rank": 39,
+   "tier": "Emerging",
+   "rank_p5": 37,
+   "rank_p95": 42,
+   "rank_min": 36,
+   "rank_max": 43,
+   "pct_draws_same_tier": 59
+  },
+  {
+   "state": "Georgia",
+   "composite": 47.3,
+   "rank": 40,
+   "tier": "Emerging",
+   "rank_p5": 37,
+   "rank_p95": 42,
+   "rank_min": 33,
+   "rank_max": 44,
+   "pct_draws_same_tier": 58
+  },
+  {
+   "state": "Arizona",
+   "composite": 47.1,
+   "rank": 41,
+   "tier": "Emerging",
+   "rank_p5": 38,
+   "rank_p95": 42,
+   "rank_min": 36,
+   "rank_max": 43,
+   "pct_draws_same_tier": 51
+  },
+  {
+   "state": "Louisiana",
+   "composite": 46.3,
+   "rank": 42,
+   "tier": "Critical",
+   "rank_p5": 39,
+   "rank_p95": 43,
+   "rank_min": 37,
+   "rank_max": 46,
+   "pct_draws_same_tier": 68
+  },
+  {
+   "state": "Oklahoma",
+   "composite": 43.8,
+   "rank": 43,
+   "tier": "Critical",
+   "rank_p5": 43,
+   "rank_p95": 46,
+   "rank_min": 41,
+   "rank_max": 48,
+   "pct_draws_same_tier": 96
+  },
+  {
+   "state": "South Carolina",
+   "composite": 43.5,
+   "rank": 44,
+   "tier": "Critical",
+   "rank_p5": 40,
+   "rank_p95": 48,
+   "rank_min": 38,
+   "rank_max": 49,
+   "pct_draws_same_tier": 90
+  },
+  {
+   "state": "Florida",
+   "composite": 43.1,
+   "rank": 45,
+   "tier": "Critical",
+   "rank_p5": 42,
+   "rank_p95": 49,
+   "rank_min": 40,
+   "rank_max": 50,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Missouri",
+   "composite": 41.9,
+   "rank": 46,
+   "tier": "Critical",
+   "rank_p5": 45,
+   "rank_p95": 49,
+   "rank_min": 44,
+   "rank_max": 50,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Utah",
+   "composite": 41.7,
+   "rank": 47,
+   "tier": "Critical",
+   "rank_p5": 44,
+   "rank_p95": 49,
+   "rank_min": 41,
+   "rank_max": 49,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Texas",
+   "composite": 41.5,
+   "rank": 48,
+   "tier": "Critical",
+   "rank_p5": 46,
+   "rank_p95": 49,
+   "rank_min": 45,
+   "rank_max": 50,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "District of Columbia",
+   "composite": 40.3,
+   "rank": 49,
+   "tier": "Critical",
+   "rank_p5": 44,
+   "rank_p95": 50,
+   "rank_min": 42,
+   "rank_max": 51,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "Ohio",
+   "composite": 39.4,
+   "rank": 50,
+   "tier": "Critical",
+   "rank_p5": 46,
+   "rank_p95": 50,
+   "rank_min": 43,
+   "rank_max": 50,
+   "pct_draws_same_tier": 100
+  },
+  {
+   "state": "West Virginia",
+   "composite": 32.7,
+   "rank": 51,
+   "tier": "Critical",
+   "rank_p5": 51,
+   "rank_p95": 51,
+   "rank_min": 50,
+   "rank_max": 51,
+   "pct_draws_same_tier": 100
+  }
+ ]
+}

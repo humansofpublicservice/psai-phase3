@@ -267,8 +267,8 @@ tr.detail-row:hover td { background: var(--surface-2); }
 
   <div class="callout">
     <p class="ctitle">Read this before the numbers</p>
-    <p><strong>9 jurisdictions have at least one dimension scored as a flat 0</strong> because that dimension's data was unavailable, not because the state measurably failed it. This is a known, unresolved issue in how the composite is assembled (see Review Dossier, Question 01). For those states in particular, treat the composite as a lower bound, not a precise score.</p>
-    <p><strong>The highest composite is 71.1 out of 100, and the median is 54.1.</strong> That compression is a real result of stricter, source-verified data replacing inflated or fabricated Phase 1 numbers, not a sign the rebuild is too harsh. The five tiers below split the 51 jurisdictions into roughly equal fifths by rank; see the Review Dossier for what changed per dimension.</p>
+    <p><strong>9 jurisdictions have a flat 0 in one dimension of the composite.</strong> The zeros arise from different situations: five states (OH, RI, SC, SD, WV) publish no usable workforce data and score 0 on D2 by design; D.C. has no D4 score in the methodology but carries 0.0 in the composite; Minnesota's D5 zero rests on indicators that were checked and answered NO; Michigan's rests on only 2 of 6 indicators; Vermont's D5 could not be checked at all. How these should be handled is an open question for reviewers (Review Dossier, Question 01). Until then, treat these composites as <em>lower bounds</em>: the Dossier table shows what each would be with the dimension dropped and the weights rescaled (for example South Carolina: 43.5 with the 0, 60.5 without).</p>
+    <p><strong>All values are AI-collected and have not yet had an independent human check (Dossier, Question 04).</strong> <strong>The highest composite is 71.1 out of 100, and the median is 54.1.</strong> That compression is a real result of stricter, source-verified data replacing inflated or fabricated Phase 1 numbers, not a sign the rebuild is too harsh. The five tiers below split the 51 jurisdictions into roughly equal fifths by rank, so they are relative, not absolute; see the Review Dossier for what changed per dimension.</p>
   </div>
 
   <div class="stats">
@@ -301,6 +301,12 @@ tr.detail-row:hover td { background: var(--surface-2); }
     </div>
     <p style="font-size:0.92rem; color:var(--ink-soft); max-width:70ch; margin:0.5rem 0 1.25rem;">The <b>Composite</b> view lists all 51 jurisdictions by overall score. Pick a <b>dimension</b> to see how that dimension was rebuilt from Phase 1 to Phase 2, its Phase 1 and Phase 2 score for every state, and, on expanding a row, the Phase 1 record and the Phase 2 evidence behind that state's current score. States with their own documented Phase 1 finding are tagged; the rest fall under the dimension-wide change described at the top of each dimension view.</p>
 
+    <div class="callout">
+      <p class="ctitle">Good states to check first</p>
+      <p><b>South Carolina</b> (largest swing when its D2 zero is dropped), <b>Minnesota</b> and <b>Michigan</b> (D5 zeros that are measured versus under-covered), <b>Vermont</b> (D5 not checkable), <b>District of Columbia</b> (D4 blank in the methodology, 0.0 in the composite), <b>Pennsylvania</b> (rank 1 in D2 on indirect sources), and <b>South Dakota</b> (its published rank, 26th, ranges from 17th to 36th when weights are varied, and it is in the same tier in only about half the draws; it also carries a D2 zero).</p>
+      <p>Ranking stability under weight changes, for every state, is in <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/robustness_results.json" target="_blank" rel="noopener">robustness_results.json</a> (Dossier, Question 02).</p>
+    </div>
+
     <div class="callout blue">
       <p class="ctitle">What academic reviewers should do here</p>
       <p>Expand a sample of states, particularly ones you know well or that sit near a tier boundary, and check whether the Phase 2 evidence shown actually supports the score. Pay close attention to any dimension marked <b>Not available</b> or <b>Partial</b>: those scores rest on less than full coverage. Weigh what you find against the <a href="./index.html#evidence" target="_blank" rel="noopener">Review Dossier's Corrective Action</a> section and <a href="./index.html#questions" target="_blank" rel="noopener">Questions for Reviewers</a>, where the open judgment calls behind this data are laid out directly.</p>
@@ -308,7 +314,7 @@ tr.detail-row:hover td { background: var(--surface-2); }
 
     <div class="callout neutral">
       <p class="ctitle">Key to the labels</p>
-      <p><b>Dimension status</b>, shown at the top of each panel: <span class="status-pill status-complete">Complete</span> every indicator for that dimension was found and verified. <span class="status-pill status-partial">Partial</span> at least one indicator could not be checked or found. <span class="status-pill status-proxy_only">Proxy only, no verified poll</span> D3-specific: no qualifying poll exists, so the score rests entirely on the news-sentiment proxy. <span class="status-pill status-not_available">Not available</span> no usable data at all; this dimension is zero-filled in the composite.</p>
+      <p><b>Dimension status</b>, shown at the top of each panel: <span class="status-pill status-complete">Complete</span> every indicator for that dimension was found and verified. <span class="status-pill status-partial">Partial</span> at least one indicator could not be checked or found. <span class="status-pill status-proxy_only">Proxy only, no verified poll</span> D3-specific: no qualifying poll exists, so the score rests entirely on the news-sentiment proxy. <span class="status-pill status-not_available">Not available</span> no usable data at all; this dimension is carried as a 0 in the composite (open question, Dossier Question 01).</p>
       <p style="margin-top:0.75rem;"><b>Indicator status</b>, each line inside "Phase 2: current evidence": <span class="ind-dot ok" style="display:inline-block;"></span> confirmed (FOUND / YES / VERIFIED). <span class="ind-dot warn" style="display:inline-block;"></span> checked and not confirmed (NO). <span class="ind-dot na" style="display:inline-block;"></span> could not be checked at all (COULDNT_CHECK / NOT_PUBLISHED / NO_QUALIFYING_POLL / NONE_CONFIRMED).</p>
     </div>
 
