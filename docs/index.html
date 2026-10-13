@@ -588,6 +588,7 @@ footer.pagefoot {
         <a class="toc-link" href="#d5">D5 &middot; Recognition <span class="w">5%</span></a>
         <a class="toc-link" href="#tier-system">Tier System</a>
       </div>
+      <a class="toc-link" href="#methods-spec">Methods Spec</a>
       <a class="toc-link" href="#data-audit">State-by-State Data Audit</a>
       <a class="toc-link" href="#questions">Questions for Reviewers</a>
       <a class="toc-link" href="#submit-feedback">How to Submit Feedback</a>
@@ -678,7 +679,7 @@ footer.pagefoot {
         </div>
         <div class="tl-item">
           <div class="tl-when">Jun to Aug 2026</div>
-          <div class="tl-who">Phase 2 &middot; independent audit</div>
+          <div class="tl-who">Phase 2 &middot; internal audit and rebuild</div>
           <p class="tl-what">Audited Phase 1's data quality, found a large volume of unsourced and fabricated data across every dimension, and rebuilt each one under a stricter evidentiary standard. See the audit findings in <a href="#audit">Phase 2: Auditing the Initial Index</a>, then the actions taken based on those findings in <a href="#evidence">Phase 2: Corrective Action</a>.</p>
         </div>
         <div class="tl-item">
@@ -736,6 +737,11 @@ footer.pagefoot {
       </span></summary>
       <p class="section-dek">What each dimension measures, why it was chosen, and how it's weighted against the other four.</p>
 
+      <div class="callout">
+        <p class="ctitle">What &ldquo;appreciation&rdquo; means here</p>
+        <p>In this index, appreciation is a state-level property: the degree to which a state's pay, workforce conditions, public standing, investment and formal practices indicate that it values the people who work in public service. It is inferred from five sets of observable indicators and not from asking employees how appreciated they feel. It does not measure individual employees' experience, and several indicators are proxies (for example, trust in state government as an institution stands in for regard for the public workforce). We would welcome reviewers' view on whether &ldquo;appreciation&rdquo; is the right name for this construct.</p>
+      </div>
+
       <h3 style="font-family:var(--sans); font-size:1.05rem;">What the Five Dimensions Measure</h3>
       <div class="stats" style="grid-template-columns: repeat(5,1fr);">
         <div class="stat"><div class="stat-n" style="font-size:1.1rem;">D1 &middot; 30%</div><div class="stat-l">Salary competitiveness, cost-of-living adjusted pay, retirement benefits</div></div>
@@ -778,35 +784,36 @@ footer.pagefoot {
       <h2 class="section-title">Phase 2: Auditing the Initial Index</h2>
       </span></summary>
       <p>Phase 1 built the entire index with AI-assisted collection under little constraint, then published a claim of "100% traceable, zero errors." Phase 2 audited that claim dimension by dimension. It did not hold: in every dimension, most values could not be traced back to a source that actually contained them.</p>
+      <p style="font-size:0.85rem; color:var(--ink-soft);">In each card, the top figure is Phase 1's claim that its values were traceable. The bottom figure is what the audit found, and the line beneath it gives that figure's own denominator. The denominators differ between dimensions because the audit sampled differently in each.</p>
 
       <div class="claim-reality-grid">
         <div class="claim-reality-card">
-          <div class="cr-claim"><div class="cr-label">D1 &middot; Compensation</div><div class="cr-value">100%</div></div>
+          <div class="cr-claim"><div class="cr-label">D1 &middot; Compensation: Phase 1 claimed traceable</div><div class="cr-value">100%</div></div>
           <div class="cr-reality"><div class="cr-label">Audit found</div><div class="cr-value">13.3%</div></div>
           <div class="cr-metric">20 of 150 audited cells (30 states) traced to a source that confirmed the value. Zero of 30 salary figures could be confirmed at all.</div>
         </div>
         <div class="claim-reality-card">
-          <div class="cr-claim"><div class="cr-label">D2 &middot; Workforce Health</div><div class="cr-value">100%</div></div>
+          <div class="cr-claim"><div class="cr-label">D2 &middot; Workforce Health: Phase 1 claimed traceable</div><div class="cr-value">100%</div></div>
           <div class="cr-reality"><div class="cr-label">Audit found</div><div class="cr-value">4 / 15</div></div>
           <div class="cr-metric">In a 5-state pilot audit, only 4 of 15 values could be verified against a real source; the rest were inferred.</div>
         </div>
         <div class="claim-reality-card">
-          <div class="cr-claim"><div class="cr-label">D3 &middot; Public Perception</div><div class="cr-value">100%</div></div>
+          <div class="cr-claim"><div class="cr-label">D3 &middot; Public Perception: Phase 1 claimed traceable</div><div class="cr-value">100%</div></div>
           <div class="cr-reality"><div class="cr-label">Audit found</div><div class="cr-value">19 / 102</div></div>
           <div class="cr-metric">19 of 102 metrics (51 states &times; 2) verified. Zero of 51 recognition metrics had a working source.</div>
         </div>
         <div class="claim-reality-card">
-          <div class="cr-claim"><div class="cr-label">D4 &middot; Investment in People</div><div class="cr-value">100%</div></div>
+          <div class="cr-claim"><div class="cr-label">D4 &middot; Investment in People: Phase 1 claimed traceable</div><div class="cr-value">100%</div></div>
           <div class="cr-reality"><div class="cr-label">Audit found</div><div class="cr-value">No audit file</div></div>
           <div class="cr-metric">No auditable per-state source file. Phase 1's own notes describe the figures as web "inferences" and values "interpolated using loosely related sources."</div>
         </div>
         <div class="claim-reality-card">
-          <div class="cr-claim"><div class="cr-label">D5 &middot; Recognition Infra.</div><div class="cr-value">100%</div></div>
+          <div class="cr-claim"><div class="cr-label">D5 &middot; Recognition Infra.: Phase 1 claimed traceable</div><div class="cr-value">100%</div></div>
           <div class="cr-reality"><div class="cr-label">Audit found</div><div class="cr-value">0 / 51</div></div>
           <div class="cr-metric">Zero of 51 jurisdictions had a fetchable source for any D5 value; 41 of 51 were zero-filled on one component.</div>
         </div>
         <div class="claim-reality-card">
-          <div class="cr-claim"><div class="cr-label">Phase 1 policy</div><div class="cr-value">"Never estimate"</div></div>
+          <div class="cr-claim"><div class="cr-label">Phase 1 stated policy</div><div class="cr-value">"Never estimate"</div></div>
           <div class="cr-reality"><div class="cr-label">Audit found</div><div class="cr-value">Estimated anyway</div></div>
           <div class="cr-metric">The stated "never estimate or extrapolate" policy was not followed in any dimension.</div>
         </div>
@@ -868,7 +875,7 @@ footer.pagefoot {
             </tr>
             <tr>
               <td><b>6. Tier assignment</b></td>
-              <td>5 tiers (Leading/Strong/Developing/Emerging/Lagging-or-Critical), thresholds 52.4 to 64.87.</td>
+              <td>5 tiers (Leading/Strong/Developing/Emerging/Critical), thresholds 52.4 to 64.87.</td>
               <td>Same 5 tiers and names, thresholds recalibrated to the rebuilt score distribution (47 / 52 / 57 / 62).</td>
             </tr>
           </tbody>
@@ -904,6 +911,8 @@ footer.pagefoot {
       </div>
       <p style="font-size:0.9rem; color:var(--ink-soft);">Where the phases genuinely differ is how a missing dimension value is handled before it reaches that formula. Phase 1's stated policy was to zero-fill a missing component; the audit found that policy inconsistently followed, sometimes zero-filled, sometimes silently replaced with an unsourced estimate. Every Phase 2 dimension excludes a missing indicator and rescales the remaining weights instead. That fix stops at the dimension boundary: the top-level file combining the five dimension scores (<a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/PSAI_CompositeScores_Rebuilt.xlsx" target="_blank" rel="noopener"><code>PSAI_CompositeScores_Rebuilt.xlsx</code></a>) still carries a 0 in one dimension for 9 states, the one place the old approach was not carried through the rebuild. Those zeros come from different situations, not one (see the table in <a href="#questions">Question 01</a>). We have left the file as it is, so that reviewers can weigh in on the rule before it changes.</p>
 
+      <p style="font-size:0.85rem; color:var(--ink-soft);"><b>How to read the paired figures in each card.</b> The left figure is what the audit found in Phase 1. The right figure is the Phase 2 rebuild's own internal check. They are measured on different bases (different samples and denominators, and the second is not an independent human audit), so they are not a before-and-after comparison of accuracy.</p>
+
       <article class="exhibit" id="d1">
         <div class="exhibit-head">
           <div>
@@ -914,9 +923,9 @@ footer.pagefoot {
         </div>
         <div class="exhibit-body">
           <div class="delta-row">
-            <span class="delta-old">13.3% of cells traceable to source</span>
-            <span class="delta-arrow">&rarr;</span>
-            <span class="delta-new">246 / 255 values verified, cell-level</span>
+            <span class="delta-old"><i style="font-style:normal; font-weight:600;">Phase 1, as audited:</i> 13.3% of cells traceable to source</span>
+            <span class="delta-arrow">vs.</span>
+            <span class="delta-new"><i style="font-style:normal; font-weight:600;">Phase 2 rebuild, own checks:</i> 246 / 255 values verified, cell-level</span>
           </div>
           <p style="font-size:0.82rem; color:var(--ink-faint); margin:0.4rem 0 0.9rem;">These two figures use different denominators. 13.3% is the Phase 2 audit of Phase 1: 20 of 150 sampled cells (30 states &times; 5). 246 / 255 is the Phase 2 rebuild's own check of its 255 evidence rows (51 states &times; 5) by the collector's double extraction. It is not an independent human audit (see Question 04).</p>
           <div class="phase-compare">
@@ -933,7 +942,7 @@ footer.pagefoot {
               </ul>
             </div>
             <div class="phase-col p2">
-              <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
+              <span class="phase-tag p2">Phase 2 &middot; rebuild</span>
               <p class="who">Claude Code collection agent, per-dimension rules</p>
               <p>Every value traced to a specific cell in a downloaded federal file, each fingerprinted (SHA256) for reproducibility. Five indicators, mostly percentile-ranked.</p>
               <span class="src-list-label">The exact sources (all 4, named)</span>
@@ -948,7 +957,7 @@ footer.pagefoot {
                 <li><b>I1 Pay level, 32%.</b> Cost-of-living-adjusted average state-government wage (BLS OEWS), percentile-ranked. Weighted highest as the most direct read on whether pay itself is competitive.</li>
                 <li><b>I2 Market position, 22%.</b> Government pay divided by private-sector pay in the same state (BLS QCEW), percentile-ranked. Chosen over comparing job titles directly, since duties and seniority differ too much across sectors for that comparison to mean anything.</li>
                 <li><b>I3 Entry-level pay vs. rent, 20%.</b> Entry-role wages (BLS) against a one-bedroom Fair Market Rent (HUD), scored against a fixed 30%-of-income affordability bar rather than ranked. A yes-or-no affordability question doesn't depend on how other states compare.</li>
-                <li><b>I4 Retirement, 16%.</b> Three checkable facts from NASRA: Social Security coverage, plan type, and employee contribution rate. Chosen over a subjective pension-quality score, which is exactly what produced six incompatible rubrics in Phase 1.</li>
+                <li><b>I4 Retirement, 16%.</b> Three checkable facts from NASRA: Social Security coverage, plan type, and employee contribution rate, scored as points: Social Security covered 40, partial 20, not covered 0; plan type defined benefit 40, hybrid or cash balance 30, choice 25, defined contribution 15; employee contribution up to 4% of salary 20, up to 7% 15, up to 10% 10, above 5. Chosen over a subjective pension-quality score, which is exactly what produced six incompatible rubrics in Phase 1.</li>
                 <li><b>I5 Real trajectory, 10%.</b> Five-year, inflation-adjusted wage growth (BLS, CPI), percentile-ranked. Lowest weight because a single five-year window can reflect one unusual budget cycle rather than a durable pattern.</li>
               </ul>
               <span class="source-link">Evidence file with every cell + locator: <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/d1-compensation/d1_evidence.csv" target="_blank" rel="noopener">d1_evidence.csv</a></span>
@@ -983,9 +992,9 @@ footer.pagefoot {
         </div>
         <div class="exhibit-body">
           <div class="delta-row">
-            <span class="delta-old">0 of 51 states had genuine sourced data</span>
-            <span class="delta-arrow">&rarr;</span>
-            <span class="delta-new">81% of scored values now high-confidence, sourced</span>
+            <span class="delta-old"><i style="font-style:normal; font-weight:600;">Phase 1, as audited:</i> 0 of 51 states had genuine sourced data</span>
+            <span class="delta-arrow">vs.</span>
+            <span class="delta-new"><i style="font-style:normal; font-weight:600;">Phase 2 rebuild, own checks:</i> 81% of scored values now high-confidence, sourced</span>
           </div>
           <div class="phase-compare">
             <div class="phase-col p1">
@@ -999,7 +1008,7 @@ footer.pagefoot {
               </ul>
             </div>
             <div class="phase-col p2">
-              <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
+              <span class="phase-tag p2">Phase 2 &middot; rebuild</span>
               <p class="who">Claude Code collection agent, per-dimension rules</p>
               <p>Turnover, vacancy, and tenure collected only from official state sources; missing data marked Missing and folds into a transparency score instead of being estimated. Five states (Ohio, Rhode Island, South Carolina, South Dakota, West Virginia) genuinely publish nothing usable and score zero on this dimension, by design (non-publication is scored as zero transparency), a documented result now, not a guess. The composite workbook carries this as a 0 for these five states (see Question 01).</p>
               <span class="src-list-label">The sources (by design, no fixed list)</span>
@@ -1044,9 +1053,9 @@ footer.pagefoot {
         </div>
         <div class="exhibit-body">
           <div class="delta-row">
-            <span class="delta-old">Trust measured 6 incompatible ways; 24/51 zero-filled</span>
-            <span class="delta-arrow">&rarr;</span>
-            <span class="delta-new">13/51 verified trust polls, rest labeled as proxy</span>
+            <span class="delta-old"><i style="font-style:normal; font-weight:600;">Phase 1, as audited:</i> Trust measured 6 incompatible ways; 24/51 zero-filled</span>
+            <span class="delta-arrow">vs.</span>
+            <span class="delta-new"><i style="font-style:normal; font-weight:600;">Phase 2 rebuild, own checks:</i> 13/51 verified trust polls, rest labeled as proxy</span>
           </div>
           <div class="phase-compare">
             <div class="phase-col p1">
@@ -1059,7 +1068,7 @@ footer.pagefoot {
               </ul>
             </div>
             <div class="phase-col p2">
-              <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
+              <span class="phase-tag p2">Phase 2 &middot; rebuild</span>
               <p class="who">Claude Code collection agent, per-dimension rules</p>
               <p>Rebuilt around perception of state government as an institution, a proxy for perception of the workforce, since almost no polling asks about public servants specifically. A poll score and a news-sentiment score, blended by how much data each state actually has. The recognition component is pending, not removed: a 12-state spot-check found 0 of 24 existing recognition values verifiable, so D3 = D3_perception for now while the recognition rebuild, and whether it belongs in D3 at all, remains an open question.</p>
               <span class="src-list-label">The 13 verified polls, named</span>
@@ -1070,7 +1079,7 @@ footer.pagefoot {
               <span class="src-list-label">The formula: two streams, blended by confidence</span>
               <ul class="src-list">
                 <li><b>D3 = (c<sub>P</sub>&nbsp;&times;&nbsp;P + c<sub>S</sub>&nbsp;&times;&nbsp;S) / (c<sub>P</sub> + c<sub>S</sub>).</b> P is the weighted-mean favorable result across verified polls on trust in state government as an institution. S is the share of favorable state-government news coverage, with neutral coverage counted as half.</li>
-                <li><b>c<sub>P</sub> and c<sub>S</sub> are confidence weights</b>, not fixed shares: a thin or unverified stream (a small poll, a sparse news corpus) is blended in proportionally less than a well-supported one. Where no qualifying poll exists (38 of 51 states), c<sub>P</sub>&nbsp;=&nbsp;0 and D3 reduces to the sentiment score alone.</li>
+                <li><b>c<sub>P</sub> and c<sub>S</sub> are confidence weights</b>, not fixed shares: a thin or unverified stream (a small poll, a sparse news corpus) is blended in proportionally less than a well-supported one. Precisely: c<sub>P</sub> is 1.0 if the state has at least one recent (2024&ndash;26) direct poll with 800 or more respondents, 0.6 if it has only older, smaller or proxy polls, and 0 if it has none; c<sub>S</sub> is the lesser of 1 and (articles&nbsp;/&nbsp;20). P itself weights each poll by recency (1.0 for 2024&ndash;26, 0.7 for 2022&ndash;23, polls before 2022 excluded), sample size (1.0 for 800 or more, 0.7 for 400&ndash;799, 0.4 below or unknown) and directness (1.0 if it asks about state government, 0.6 for a close proxy). S is 100&nbsp;&times;&nbsp;(positive&nbsp;+&nbsp;0.5&nbsp;&times;&nbsp;neutral)&nbsp;/&nbsp;all articles. In the 13 states with a poll, the poll's share of D3 ranges from 41% to 67%. Recognition is not currently part of D3. Where no qualifying poll exists (38 of 51 states), c<sub>P</sub>&nbsp;=&nbsp;0 and D3 reduces to the sentiment score alone.</li>
                 <li>Government-as-institution trust is used as the closest available proxy for perception of the public workforce specifically, since almost no polling asks that narrower question directly.</li>
               </ul>
               <span class="source-link">Evidence file with every poll + article: <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/d3-public-perception/d3_scores.csv" target="_blank" rel="noopener">d3_scores.csv</a> / <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/d3-public-perception/polls.csv" target="_blank" rel="noopener">polls.csv</a></span>
@@ -1084,9 +1093,11 @@ footer.pagefoot {
             <p>Phase 1 mixed polls about individual officials into the workforce-perception score and never checked that a cited article said what was claimed.</p>
           </div>
           <details class="open-q">
-            <summary>Known Limitations (2)</summary>
+            <summary>Known Limitations (3)</summary>
             <ul>
-              <li><strong>The two groups of states cannot be ranked on one list.</strong> 13 states have real trust polling; the other 38 are scored from the tone of news coverage instead. The two can disagree sharply for the same state (Ohio: 17% trust in polling against a middling 50 on the news-tone scale), so merging them would mislead.</li>
+              <li><strong>The two groups of states are not comparable, yet they are ranked on one list.</strong> 13 states have real trust polling; the other 38 are scored from the tone of news coverage instead. The two measure different things and can disagree sharply for the same state (Ohio: 17% trust in polling against a middling 50 on the news-tone scale). The composite nevertheless places both groups on the same scale, so a state's rank partly reflects which kind of evidence it happened to have. We have kept the merged ranking as built and are not resolving this ourselves. <b>Reviewer input requested:</b> should the groups be (a) kept merged as now, with the data source shown beside each score; (b) ranked separately within each group; (c) merged only after calibrating news-tone to the poll scale for the 13 states where both exist; or (d) handled some other way you would propose?</li>
+              <li><strong>The sentiment score cannot be re-derived from this repo.</strong> The article-level corpus (URLs, labels) is not included here, only the article count and the final score. Web search results also change over time, so a re-run would not return the same articles. Reviewers can inspect the method (fixed 10-query template, fixed 2022 to run-date window, classifier instructions in <code>sentiment-analyzer.md</code>) but not recompute the figures.</li>
+
               <li><strong>The news-tone score tends to run low.</strong> Coverage leans toward problems and complaints, so a state scored mostly on news tone, because no polling exists for it, can look worse than it actually is.</li>
             </ul>
           </details>
@@ -1103,9 +1114,9 @@ footer.pagefoot {
         </div>
         <div class="exhibit-body">
           <div class="delta-row">
-            <span class="delta-old">Training-budget figures inferred from unrelated sources</span>
-            <span class="delta-arrow">&rarr;</span>
-            <span class="delta-new">Two verifiable proxies: PD functions + Digital States grade</span>
+            <span class="delta-old"><i style="font-style:normal; font-weight:600;">Phase 1, as audited:</i> Training-budget figures inferred from unrelated sources</span>
+            <span class="delta-arrow">vs.</span>
+            <span class="delta-new"><i style="font-style:normal; font-weight:600;">Phase 2 rebuild, own checks:</i> Two verifiable proxies: PD functions + Digital States grade</span>
           </div>
           <div class="phase-compare">
             <div class="phase-col p1">
@@ -1118,7 +1129,7 @@ footer.pagefoot {
               </ul>
             </div>
             <div class="phase-col p2">
-              <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
+              <span class="phase-tag p2">Phase 2 &middot; rebuild</span>
               <p class="who">Claude Code collection agent, per-dimension rules</p>
               <p>Rebuilt around two things every state actually publishes: a count of confirmed statewide professional-development functions (training divisions, leadership academies), and the Center for Digital Government's Digital States Survey grade. Explicitly a proxy for commitment/infrastructure, not a dollar figure.</p>
               <span class="src-list-label">The exact sources (2, named)</span>
@@ -1128,7 +1139,7 @@ footer.pagefoot {
               </ul>
               <span class="src-list-label">The formula: PD-function count as the base, two small bonuses on top</span>
               <ul class="src-list">
-                <li><b>dimension4_score = (pd_points + digital_states_points) / 2.</b> pd_points is a base score by confirmed PD-function count (0 for none, 55 for one, 70 for two, 85 for three or more), plus a +12 bonus if the state has a CPM-accredited program and a +7 bonus if it has a non-CPM certificate program, floored at 20. Example: Alabama has 1 confirmed function (55) plus CPM accreditation (+12) plus a certificate program (+7) = 74 pd_points. Digital States points: the Center for Digital Government's A-F grade mapped onto a 100-to-0 ladder.</li>
+                <li><b>dimension4_score = (pd_points + digital_states_points) / 2.</b> pd_points is a base score by confirmed PD-function count (0 for none, 55 for one, 70 for two, 85 for three or more), plus a +12 bonus if the state has a CPM-accredited program and a +7 bonus if it has a non-CPM certificate program, capped at 100. A floor of 20 applies only when a state has no confirmed PD function but does have a CPM-accredited program (CO, MI and TX); a state with neither scores 0 on this half. Example: Alabama has 1 confirmed function (55) plus CPM accreditation (+12) plus a certificate program (+7) = 74 pd_points. Digital States points: the Center for Digital Government's A-F grade mapped to points: A 100, A- 92, B+ 88, B 83, B- 80, C+ 77, C 73, C- 70, D 60, F 0. D.C. is not surveyed, so it has no Digital States points and its D4 score is blank; the composite then carries it as 0 (Question 01), although D4's own rules say never to default D.C. to zero and D.C. has 70 PD points.</li>
                 <li>Chosen because no state publishes a comparable training-budget figure in dollars. CPM accreditation moved from the primary scored metric to a minor bonus on top of the function count, since accreditation status alone doesn't indicate the breadth of a state's PD offerings.</li>
               </ul>
               <span class="source-link">Evidence file with every state's source URL: <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/d4-investment-in-people/dimension4_pd_revised.csv" target="_blank" rel="noopener">dimension4_pd_revised.csv</a></span>
@@ -1161,9 +1172,9 @@ footer.pagefoot {
         </div>
         <div class="exhibit-body">
           <div class="delta-row">
-            <span class="delta-old">40% of every score measured HOPS's own story output</span>
-            <span class="delta-arrow">&rarr;</span>
-            <span class="delta-new">92.3% of earned points now rest on a state's own document</span>
+            <span class="delta-old"><i style="font-style:normal; font-weight:600;">Phase 1, as audited:</i> 40% of every score measured HOPS's own story output</span>
+            <span class="delta-arrow">vs.</span>
+            <span class="delta-new"><i style="font-style:normal; font-weight:600;">Phase 2 rebuild, own checks:</i> 92.3% of earned points now rest on a state's own document</span>
           </div>
           <div class="phase-compare">
             <div class="phase-col p1">
@@ -1176,7 +1187,7 @@ footer.pagefoot {
               </ul>
             </div>
             <div class="phase-col p2">
-              <span class="phase-tag p2">Phase 2 &middot; independent audit</span>
+              <span class="phase-tag p2">Phase 2 &middot; rebuild</span>
               <p class="who">Claude Code collection agent, per-dimension rules</p>
               <p>Six binary yes/no/couldn't-check questions, each requiring a fetched-and-read source URL. A blocked lookup is removed from the denominator, never scored as failure. Coverage percentage published alongside every score.</p>
               <span class="src-list-label">The sources (306 total, no fixed list by design)</span>
@@ -1222,11 +1233,11 @@ footer.pagefoot {
             <tr><td style="color:#3b82f6; font-weight:700;">Strong</td><td>&ge; 59.22</td><td>57.0 to 61.9</td><td>10</td></tr>
             <tr><td style="color:#93c5fd; font-weight:700;">Developing</td><td>&ge; 55.6</td><td>52.0 to 56.9</td><td>10</td></tr>
             <tr><td style="color:#fbbf24; font-weight:700;">Emerging</td><td>&ge; 52.4</td><td>47.0 to 51.9</td><td>10</td></tr>
-            <tr><td style="color:#f97316; font-weight:700;">Critical / Lagging</td><td>&lt; 52.4</td><td>&lt; 47.0</td><td>10</td></tr>
+            <tr><td style="color:#f97316; font-weight:700;">Critical</td><td>&lt; 52.4</td><td>&lt; 47.0</td><td>10</td></tr>
           </tbody>
         </table>
       </div>
-      <p style="font-size:0.85rem; color:var(--ink-faint); margin-top:0.6rem;">Phase 1's own site named the bottom tier "Lagging" in the Framework page copy but "Critical" in the underlying data file, a minor inconsistency worth noting if the authoritative name is ever in question.</p>
+      <p style="font-size:0.85rem; color:var(--ink-faint); margin-top:0.6rem;">Phase 1's own site named the bottom tier "Lagging" in the Framework page copy but "Critical" in the underlying data file. This package uses "Critical" throughout, which is the name in the data file and in the Results dashboard.</p>
 
             <div class="callout">
         <p class="ctitle">Tiers are relative</p>
@@ -1236,6 +1247,54 @@ footer.pagefoot {
         <p class="ctitle">Note on Phase 1 citation lists (applies to every dimension)</p>
         <p>Every per-dimension evidence file and agent definition cited above now links to <a href="https://github.com/humansofpublicservice/psai-phase3" target="_blank" rel="noopener">the public HOPS evidence repo</a> (<code>humansofpublicservice/psai-phase3</code> on GitHub), mirroring the evidence, methodology, and agent-definition files behind this dossier. The Phase 1 per-state citation lists are not in this repo, since Phase 1's own project has not been migrated to the HOPS GitHub org. This does not affect review of Phase 2: all Phase 2 evidence is here. It only limits side-by-side checking of Phase 1 claims.</p>
       </div>
+    </details>
+
+    <details class="accordion-section" id="methods-spec">
+      <summary class="sec-summary"><span class="sec-summary-text">
+      <p class="kicker">One row per scored indicator</p>
+      <h2 class="section-title">Methods Spec</h2>
+      </span></summary>
+      <p style="font-size:0.9rem; color:var(--ink-soft);">The per-dimension exhibits above describe each indicator in prose. This table puts the same facts in one place: source, reference year, transformation, direction, coverage and missing-data rule. Every cell was checked against the methodology documents, agent definitions and evidence files in the repository. The same table is available as <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/methods_spec.csv" target="_blank" rel="noopener">composite/methods_spec.csv</a>, with unit, evidence file and open-issues columns. If a cell here disagrees with a file in the repo, the file is the source of truth; please flag it.</p>
+      <div class="tier-compare-wrap" style="overflow-x:auto;">
+        <table class="tier-compare-table" style="font-size:0.76rem;">
+          <thead><tr><th>ID</th><th>Indicator</th><th>Source</th><th>Year</th><th>Transformation to 0-100</th><th>Direction</th><th>Coverage (n of 51)</th><th>Missing-data rule</th><th>Nominal weight in composite (%)</th></tr></thead>
+          <tbody>
+            <tr><td colspan="8" style="background:var(--surface-2); font-family:var(--sans); font-weight:700;">D1 Competitive compensation (30%)</td></tr>
+            <tr><td>D1-I1</td><td>Pay level</td><td>BLS OEWS May 2024 research estimates (sector 99); BEA Regional Price Parities</td><td>2024</td><td>Percentile rank across 51: (rank-1)/50 x 100</td><td>Higher is better</td><td>51</td><td>Not applicable (all found). Non-FOUND indicators are dropped and remaining D1 weights rescaled</td><td>9.6</td></tr>
+            <tr><td>D1-I2</td><td>Market position</td><td>BLS QCEW 2024 (private-sector average annual pay), divided into I1 figure</td><td>2024</td><td>Percentile rank across 51</td><td>Higher is better</td><td>51</td><td>As I1</td><td>6.6</td></tr>
+            <tr><td>D1-I3</td><td>Entry pay vs. rent</td><td>BLS OEWS May 2024 (eligibility interviewers, correctional officers, tax examiners); HUD FY2025 Fair Market Rents, population-weighted to state</td><td>BLS 2024; HUD FY2025</td><td>Fixed bar, not a ranking: required income = annual rent / 0.30; score capped at 100 when entry wage clears it</td><td>Lower rent share is better</td><td>51</td><td>As I1</td><td>6.0</td></tr>
+            <tr><td>D1-I4</td><td>Retirement</td><td>NASRA Contributions Brief and NASRA plan-type overview</td><td>2024 anchor; source vintage Oct-Dec 2025</td><td>Sum of points: Social Security covered 40 / partial 20 / none 0; plan type DB 40, hybrid 30, cash balance 30, choice 25, DC 15; employee contribution &lt;=4% 20, &lt;=7% 15, &lt;=10% 10, above 5</td><td>Higher is better</td><td>42</td><td>COULDNT_CHECK for 9 (AR, CA, DC, HI, MA, NY, UT, VT, WA); dropped, other D1 weights rescaled</td><td>4.8</td></tr>
+            <tr><td>D1-I5</td><td>Real trajectory</td><td>BLS QCEW 2019 and 2024; BLS CPI-U</td><td>2019 to 2024</td><td>Percentile rank across 51</td><td>Higher is better</td><td>51</td><td>As I1</td><td>3.0</td></tr>
+            <tr><td colspan="8" style="background:var(--surface-2); font-family:var(--sans); font-weight:700;">D2 Workforce health (28%)</td></tr>
+            <tr><td>D2-C1</td><td>Turnover</td><td>Each state&#x27;s official HR or workforce report; Reason Foundation as flagged low-confidence fallback</td><td>2022-2026, varies by state</td><td>Percentile rank among states that publish; inverted. Single nationwide ranking</td><td>Lower is better</td><td>39</td><td>Not published: indicator excluded and available Tier C sub-metrics rescaled to the full 65%</td><td>9.1 (nominal)</td></tr>
+            <tr><td>D2-C2</td><td>Vacancy rate</td><td>Each state&#x27;s official HR or workforce report</td><td>2022-2026, varies by state</td><td>Percentile rank among states that publish; inverted</td><td>Lower is better</td><td>19</td><td>As D2-C1</td><td>5.5 (nominal)</td></tr>
+            <tr><td>D2-C3</td><td>Tenure</td><td>Each state&#x27;s official HR or workforce report</td><td>2022-2026, varies by state</td><td>Percentile rank among states that publish</td><td>Higher is better (long tenure can also signal low hiring)</td><td>28</td><td>As D2-C1</td><td>3.6 (nominal)</td></tr>
+            <tr><td>D2-B1</td><td>Workforce transparency</td><td>Same state reports</td><td>2022-2026</td><td>(metrics published / 3) x 100. Graded, not binary</td><td>More published is better</td><td>51</td><td>Not applicable. A state with nothing published scores 0 on D2 overall (OH, RI, SC, SD, WV)</td><td>9.8</td></tr>
+            <tr><td colspan="8" style="background:var(--surface-2); font-family:var(--sans); font-weight:700;">D3 Public perception (22%)</td></tr>
+            <tr><td>D3-P</td><td>Trust poll score (P)</td><td>Statewide polls (13 states; see d3-public-perception/polls.csv)</td><td>2022-2026 (pre-2022 excluded)</td><td>Weighted mean of pct_favorable; weight = recency (1.0 for 2024-26, 0.7 for 2022-23) x sample (1.0 n&gt;=800, 0.7 n 400-799, 0.4 smaller or unknown) x directness (1.0 asks about &#x27;state government&#x27;, 0.6 close proxy)</td><td>Higher is better</td><td>13</td><td>No qualifying poll: P is MISSING and c_P = 0, so D3 reduces to S</td><td>varies by state (see D3 note)</td></tr>
+            <tr><td>D3-S</td><td>News sentiment (S)</td><td>Web search over a fixed 10-query template per state; articles classified by an AI model</td><td>2022-01-01 to run date</td><td>S = 100 x (n_pos + 0.5 n_neu) / (n_pos + n_neu + n_neg)</td><td>Higher is better</td><td>51</td><td>Not applicable. All 51 have a value; confidence weight c_S = min(1, n_articles / 20)</td><td>varies by state (see D3 note)</td></tr>
+            <tr><td>D3-R</td><td>Recognition visibility</td><td>n/a</td><td>n/a</td><td>Not scored. D3 = D3_perception while recognition is pending</td><td>n/a</td><td>0</td><td>Not scored</td><td>0</td></tr>
+            <tr><td colspan="8" style="background:var(--surface-2); font-family:var(--sans); font-weight:700;">D4 Investment in people (15%)</td></tr>
+            <tr><td>D4-PD</td><td>Professional development (pd_points)</td><td>Official state .gov pages; National CPM Consortium roster</td><td>Varies; many sources undated</td><td>Base 0 / 55 / 70 / 85 for 0, 1, 2, 3+ functions; +12 if CPM accredited; +7 if non-CPM certificate program not already counted; capped at 100; floor of 20 only when 0 functions and CPM accredited (applies to CO, MI, TX)</td><td>Higher is better</td><td>51</td><td>Counts what official pages disclose; blocked pages can under-count, giving a conservative 0 (10 states score 0 functions)</td><td>7.5</td></tr>
+            <tr><td>D4-DS</td><td>Digital States grade (digital_states_points)</td><td>Center for Digital Government Digital States Survey (via GovTech)</td><td>2024</td><td>A 100, A- 92, B+ 88, B 83, B- 80, C+ 77, C 73, C- 70, D 60, F 0</td><td>Higher is better</td><td>50</td><td>D.C. is not surveyed: grade recorded as &#x27;Substitute&#x27;, no points, D4 left blank and carried as 0 in the composite</td><td>7.5</td></tr>
+            <tr><td colspan="8" style="background:var(--surface-2); font-family:var(--sans); font-weight:700;">D5 Recognition infrastructure (5%)</td></tr>
+            <tr><td>D5-I1</td><td>Legal authority</td><td>State statutes and rules (fetched, quoted)</td><td>No recency floor</td><td>20 points if YES. D5 score = points earned / points possible among checked indicators x 100</td><td>Yes is better</td><td>42 checked (39 YES, 3 NO)</td><td>COULDNT_CHECK removed from denominator. Coverage floor exists in code but is set to 0</td><td>1.0</td></tr>
+            <tr><td>D5-I2</td><td>Posted policy</td><td>State HR policy pages</td><td>No recency floor</td><td>15 points if YES</td><td>Yes is better</td><td>34 checked (30 YES, 4 NO)</td><td>As D5-I1</td><td>0.75</td></tr>
+            <tr><td>D5-I3</td><td>Named award program</td><td>Award-program pages</td><td>No recency floor</td><td>20 points if YES</td><td>Yes is better</td><td>36 checked (27 YES, 9 NO)</td><td>As D5-I1</td><td>1.0</td></tr>
+            <tr><td>D5-I4</td><td>Documented activity</td><td>State pages; news only if the state page is unreachable</td><td>2023 or later</td><td>20 points if YES</td><td>Yes is better</td><td>47 checked (23 YES, 24 NO)</td><td>As D5-I1</td><td>1.0</td></tr>
+            <tr><td>D5-I5</td><td>Recent proclamation</td><td>Governor&#x27;s proclamation archives</td><td>2023 or later</td><td>15 points if YES</td><td>Yes is better</td><td>38 checked (14 YES, 24 NO)</td><td>As D5-I1</td><td>0.75</td></tr>
+            <tr><td>D5-I6</td><td>Recent event</td><td>State pages; news fallback</td><td>2023 or later</td><td>10 points if YES</td><td>Yes is better</td><td>47 checked (22 YES, 25 NO)</td><td>As D5-I1</td><td>0.5</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3 style="font-family:var(--sans); font-size:1.05rem; margin-top:1.75rem;">Reading the weights</h3>
+      <ul class="rules-list">
+        <li><b>Nominal weights are not influence.</b> The five dimensions use different scale types (percentile ranks in D1 and D2, proportions in D3, point ladders in D4 and D5), so they spread differently. Weight times standard deviation across the 51 states is D2 6.9, D1 4.4, D4 2.7, D3 2.6, D5 1.5 (composite/robustness_results.json). D2 carries the most influence despite a lower nominal weight than D1.</li>
+        <li><b>Weights inside D2 and D5 shift by state.</b> The D2 and D5 figures above hold only when every indicator has a value. A state missing an indicator has the remaining ones rescaled, so its published indicators count for more.</li>
+        <li><b>D3 has no fixed indicator weight.</b> D3 perception is (c_P x P + c_S x S) / (c_P + c_S). c_P is 1.0 with a recent direct poll of 800 or more, 0.6 with only older, smaller or proxy polls, and 0 with none. c_S is the lesser of 1 and articles / 20. For the 13 states with a poll, the poll's share of D3 ranges from 41% to 67%. For the other 38 states, D3 is 100% news sentiment. Recognition is not currently scored in D3.</li>
+        <li><b>Transparency is graded.</b> D2's Tier B score is the number of Tier C metrics a state publishes (0, 1, 2 or 3) divided by 3, so it is 0, 33.3, 66.7 or 100.</li>
+      </ul>
+      <p style="font-size:0.85rem; color:var(--ink-soft);">Composite: 0.30 &times; D1 + 0.28 &times; D2 + 0.22 &times; D3 + 0.15 &times; D4 + 0.05 &times; D5. Nine jurisdictions carry a 0 for a dimension in the composite (Question 01). Of these, only D.C. (D4) and Vermont (D5) have no dimension score at all; the D2 zeros are by design, and Michigan and Minnesota have measured D5 zeros.</p>
     </details>
 
     <details class="accordion-section" id="data-audit">
@@ -1314,6 +1373,8 @@ footer.pagefoot {
       </span></summary>
       <p class="section-dek">Questions spanning more than one dimension, or sitting above all five. Questions 01, 02 and 06 are where an outside, expert view is most valued. Each ends with a line labeled "Our current thinking": it is there for transparency, and you should feel free to disagree with it or ignore it. Answer these in the <a href="#submit-feedback">response template</a>.</p>
 
+      <p style="font-size:0.85rem; color:var(--ink-soft);"><b>Where your expertise helps most.</b> Index construction and measurement (Questions 01, 02, 03, 05, 06 and the D2 and D4 construct questions); survey and public-opinion methods (D3, including the merged polling and news-tone question); public HR and public administration (D2, D4, D5); AI-assisted data collection and verification design (Question 04). Skip anything outside your area.</p>
+
       <div class="qlist">
         <div class="qcard flag">
           <div class="qnum">01 &middot; OPEN DESIGN QUESTION</div>
@@ -1327,13 +1388,14 @@ footer.pagefoot {
 <tr><td>South Carolina</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>43.5 (Critical)</td><td>60.5 (Strong)</td></tr>
 <tr><td>South Dakota</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>54.1 (Developing)</td><td>75.2 (Leading)</td></tr>
 <tr><td>West Virginia</td><td>D2</td><td>Zero by D2 design: no usable state workforce data published</td><td>32.7 (Critical)</td><td>45.4 (Critical)</td></tr>
-<tr><td>District of Columbia</td><td>D4</td><td>Blank in D4 methodology (not in the Digital States survey); carried as 0.0 in the composite</td><td>40.3 (Critical)</td><td>47.4 (Emerging)</td></tr>
+<tr><td>District of Columbia</td><td>D4</td><td>Not in the Digital States survey, so D4's second half is blank and the composite carries 0.0. D.C. does have PD points (70), and D4's own rules say never to default D.C. to zero</td><td>40.3 (Critical)</td><td>47.4 (Emerging)</td></tr>
 <tr><td>Minnesota</td><td>D5</td><td>Five indicators checked and answered NO, one could not be checked (per D5 evidence file)</td><td>67.6 (Leading)</td><td>71.2 (Leading)</td></tr>
 <tr><td>Michigan</td><td>D5</td><td>Two of six indicators answered; coverage 30 of 100 points; D5 methodology says this "almost certainly understates"</td><td>58.3 (Strong)</td><td>61.4 (Strong)</td></tr>
 <tr><td>Vermont</td><td>D5</td><td>All six indicators could not be checked (every source domain refused requests); D5 methodology says no score is possible</td><td>52.9 (Developing)</td><td>55.7 (Developing)</td></tr>
 </tbody></table></div>
           <p>The gap can be large. South Carolina is 43.5 (Critical) with the 0 and 60.5 (Strong) without it, a difference of three tiers. Keeping the 0 treats an unmeasured dimension as a failure; dropping it lets a state be judged only on what it publishes.</p>
           <p><b>Questions:</b> (a) What rule would you use for these states? (b) Should "the state publishes nothing" (D2's design choice), "we could not check" (D5's Vermont) and "the state is outside the source's scope" (D.C. in D4) be treated differently from one another? (c) Below what coverage, if any, should a state get a composite at all, an interval, or no composite?</p>
+          <p><b>To make this easier to answer, you may simply choose one:</b> <b>A.</b> keep the 0 as now; <b>B.</b> drop the dimension and rescale the remaining weights; <b>C.</b> publish an interval (both values) or a &ldquo;partially scored&rdquo; flag for these states, with no single point value; <b>D.</b> something else, which we would like you to describe. Please say whether your answer differs by situation (published nothing, could not check, outside the source's scope).</p>
           <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> we lean toward not publishing a single point value for states in this situation (an interval, or a "partially scored" flag), but we have not adopted a rule, and have left the file unchanged so reviewers can advise. Recomputing these figures: <code>composite/robustness.py</code>.</p>
         </div>
 
@@ -1363,7 +1425,7 @@ footer.pagefoot {
         <div class="qcard">
           <div class="qnum">04</div>
           <div class="qtitle">Under what conditions, if any, is AI-assisted collection appropriate for a public civic index?</div>
-          <p>Every dimension's fix is a stricter evidentiary process wrapped around the same underlying method: an AI agent doing the searching, reading, and scoring, with its own checks (double extraction, re-opening sampled sources, required quotes). Those checks show internal consistency; they are not an independent measure of correctness. <b>No human-verified error rate exists yet.</b> One documented case shows the limits of agent-side checks: D4's instructions say to expect about 40 states with a CPM program, the data show 21, and nothing in the files shows the gap being flagged.</p>
+          <p>Every dimension's fix is a stricter evidentiary process wrapped around the same underlying method: an AI agent doing the searching, reading, and scoring, with its own checks (double extraction, re-opening sampled sources, required quotes). Those checks show internal consistency; they are not an independent measure of correctness. <b>No human-verified error rate exists yet.</b> One documented case shows the limits of agent-side checks: D4's instructions say to expect about 40 states with a CPM program, the data show 21 as accredited (plus 18 coded &ldquo;Program exists&rdquo;, which earn no credit), and nothing in the files shows the gap being flagged or reconciled.</p>
           <p><b>Questions:</b> Is AI-assisted primary collection acceptable for this purpose at all? If so, what independent verification (sample size, blindness, error threshold, reporting) would make it defensible? What should be disclosed to readers in the meantime?</p>
           <p style="font-size:0.85rem; border-top:1px dashed var(--line); padding-top:0.5rem; margin-top:0.75rem;"><b>Our current thinking (feel free to disagree):</b> we expect to need a blind, human-checked random sample (we have sketched about 10% of evidence cells, stratified by dimension, with a pass/fail threshold set in advance) and a re-run to test reproducibility. We would like your view on whether that is the right design before we run it.</p>
         </div>
@@ -1398,7 +1460,9 @@ footer.pagefoot {
         <li>Fill in the sections that fall in your area of expertise and skip the rest. Partial responses are useful.</li>
         <li>Leave your finished copy in the shared folder by <span style="color:var(--ink-faint);">[DEADLINE: TBD]</span>. Nothing else to send.</li>
       </ol>
-      <div class="callout draft">
+            <p style="font-size:0.9rem; color:var(--ink-soft);"><b>Technical comments on specific data or code.</b> If you would rather comment on a particular row, file or script (for example <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/methods_spec.csv" target="_blank" rel="noopener">methods_spec.csv</a>, <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/spot_check_pack.csv" target="_blank" rel="noopener">spot_check_pack.csv</a> or <a href="https://github.com/humansofpublicservice/psai-phase3/blob/main/composite/alternatives.csv" target="_blank" rel="noopener">alternatives.csv</a>), you can <a href="https://github.com/humansofpublicservice/psai-phase3/issues" target="_blank" rel="noopener">open a GitHub issue</a> instead. Please also summarize anything substantive in the response template so it is counted.</p>
+
+<div class="callout draft">
         <p class="ctitle">Placeholders to be filled before this page goes to reviewers</p>
         <p>Shared review folder: <b>[LINK: TBD]</b> &middot; Response deadline: <b>[DATE: TBD]</b> &middot; Contact for questions: <b>[NAME / EMAIL: TBD]</b></p>
       </div>

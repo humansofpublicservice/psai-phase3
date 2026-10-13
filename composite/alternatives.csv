@@ -1,0 +1,52 @@
+state,d1,d2,d3,d4,d5,published,published_tier,zero_dropped,zero_dropped_tier,equal_weights,equal_weights_tier,drop_D1,drop_D1_tier,drop_D2,drop_D2_tier,drop_D3,drop_D3_tier,drop_D4,drop_D4_tier,drop_D5,drop_D5_tier
+Alabama,63.9,61.3,38.5,78.5,70.0,60.1,Strong,,,62.4,Leading,58.4,Strong,59.6,Strong,66.2,Leading,56.8,Developing,59.6,Strong
+Alaska,70.8,54.6,13.6,77.0,87.5,55.4,Developing,,,60.7,Strong,48.9,Emerging,55.8,Developing,67.2,Leading,51.6,Emerging,53.8,Developing
+Arizona,42.6,42.3,22.7,83.0,100.0,47.1,Emerging,,,58.1,Strong,49.0,Emerging,48.9,Emerging,53.9,Developing,40.7,Critical,44.3,Critical
+Arkansas,41.3,31.5,61.5,75.0,55.0,48.7,Emerging,,,52.9,Developing,51.9,Emerging,55.4,Developing,45.1,Critical,44.1,Critical,48.4,Emerging
+California,76.7,80.0,30.0,96.0,85.0,70.7,Leading,,,73.5,Leading,68.1,Leading,67.0,Leading,82.1,Leading,66.2,Leading,69.9,Leading
+Colorado,55.4,47.5,35.0,54.0,100.0,50.7,Emerging,,,58.4,Strong,48.7,Emerging,52.0,Emerging,55.1,Developing,50.1,Emerging,48.1,Emerging
+Connecticut,71.1,16.5,52.1,84.5,60.0,53.1,Developing,,,56.8,Developing,45.4,Critical,67.3,Leading,53.4,Developing,47.5,Emerging,52.7,Developing
+Delaware,48.7,51.0,38.5,90.0,100.0,55.9,Developing,,,65.6,Leading,58.9,Strong,57.8,Strong,60.8,Strong,49.8,Emerging,53.5,Developing
+District of Columbia,58.5,54.4,29.2,0.0,22.2,40.3,Critical,47.4,Emerging,32.9,Critical,32.5,Critical,34.8,Critical,43.4,Critical,47.4,Emerging,41.3,Critical
+Florida,33.4,47.7,50.0,45.0,40.0,43.1,Critical,,,43.2,Critical,47.3,Emerging,41.4,Critical,41.2,Critical,42.8,Critical,43.3,Critical
+Georgia,35.1,49.7,28.6,87.0,70.0,47.3,Emerging,,,54.1,Developing,52.5,Developing,46.4,Critical,52.6,Developing,40.3,Critical,46.1,Critical
+Hawaii,46.9,57.2,43.3,49.5,100.0,52.0,Developing,,,59.4,Strong,54.2,Developing,50.0,Emerging,54.5,Developing,52.5,Developing,49.5,Emerging
+Idaho,71.8,65.9,31.8,72.5,23.5,59.0,Strong,,,53.1,Developing,53.6,Developing,56.4,Developing,66.7,Leading,56.7,Developing,60.9,Strong
+Illinois,80.5,73.0,45.5,88.5,64.7,71.1,Leading,,,70.4,Leading,67.1,Leading,70.4,Leading,78.3,Leading,68.0,Leading,71.4,Leading
+Indiana,56.9,25.1,42.9,90.5,81.2,51.2,Emerging,,,59.3,Strong,48.7,Emerging,61.3,Strong,53.5,Developing,44.2,Critical,49.6,Emerging
+Iowa,83.4,71.8,27.3,81.0,20.0,64.3,Leading,,,56.7,Developing,56.1,Developing,61.4,Strong,74.7,Leading,61.3,Strong,66.6,Leading
+Kansas,44.9,45.4,32.1,78.5,100.0,50.0,Emerging,,,60.2,Strong,52.2,Developing,51.8,Emerging,55.1,Developing,45.0,Critical,47.4,Emerging
+Kentucky,60.6,45.8,33.3,71.0,85.0,53.2,Developing,,,59.1,Strong,50.1,Emerging,56.1,Developing,58.9,Strong,50.1,Emerging,51.6,Emerging
+Louisiana,37.8,47.4,33.1,82.5,41.2,46.3,Critical,,,48.4,Emerging,50.0,Emerging,45.9,Critical,50.1,Emerging,39.9,Critical,46.6,Critical
+Maine,55.7,47.8,31.5,77.0,55.0,51.3,Emerging,,,53.4,Developing,49.4,Emerging,52.7,Developing,56.9,Developing,46.8,Critical,51.1,Emerging
+Maryland,70.3,85.5,42.6,47.5,33.3,63.2,Leading,,,55.8,Developing,60.1,Strong,54.5,Developing,69.0,Leading,66.0,Leading,64.8,Leading
+Massachusetts,62.9,70.7,32.0,77.0,57.1,60.1,Strong,,,59.9,Strong,58.9,Strong,56.0,Developing,68.0,Leading,57.1,Strong,60.3,Strong
+Michigan,73.2,74.1,30.0,60.0,0.0,58.3,Strong,61.4,Strong,47.5,Emerging,51.9,Emerging,52.1,Developing,66.3,Leading,58.0,Strong,61.4,Strong
+Minnesota,86.5,77.7,25.0,96.0,0.0,67.6,Leading,71.2,Leading,57.0,Strong,59.5,Strong,63.7,Leading,79.6,Leading,62.6,Leading,71.2,Leading
+Mississippi,47.6,23.7,55.6,96.0,85.0,51.8,Emerging,,,61.6,Strong,53.6,Developing,62.7,Leading,50.7,Emerging,44.0,Critical,50.1,Emerging
+Missouri,47.6,16.8,23.1,90.5,85.0,41.9,Critical,,,52.6,Developing,39.4,Critical,51.7,Emerging,47.2,Emerging,33.3,Critical,39.6,Critical
+Montana,73.2,49.7,35.7,75.0,85.0,59.2,Strong,,,63.7,Leading,53.2,Developing,62.9,Leading,65.9,Leading,56.4,Developing,57.9,Strong
+Nebraska,63.3,33.7,22.2,72.5,65.0,47.4,Emerging,,,51.3,Emerging,40.6,Critical,52.8,Developing,54.5,Developing,43.0,Critical,46.5,Critical
+Nevada,68.9,69.3,53.9,88.5,87.5,69.6,Leading,,,73.6,Leading,69.9,Leading,69.7,Leading,74.0,Leading,66.3,Leading,68.6,Leading
+New Hampshire,43.6,74.8,45.0,46.0,40.0,52.8,Developing,,,49.9,Emerging,56.8,Developing,44.3,Critical,55.0,Developing,54.0,Developing,53.5,Developing
+New Jersey,58.9,80.3,51.5,81.0,100.0,68.6,Leading,,,74.3,Leading,72.8,Leading,64.1,Leading,73.5,Leading,66.4,Leading,67.0,Leading
+New Mexico,83.0,41.0,46.2,73.5,35.0,59.3,Strong,,,55.7,Developing,49.2,Emerging,66.4,Leading,63.0,Leading,56.8,Developing,60.6,Strong
+New York,49.1,75.8,28.6,80.0,70.0,57.7,Strong,,,60.7,Strong,61.5,Strong,50.7,Emerging,66.0,Leading,53.8,Developing,57.1,Strong
+North Carolina,54.9,72.4,20.0,100.0,100.0,61.2,Strong,,,69.5,Leading,63.8,Leading,56.8,Developing,72.8,Leading,54.3,Developing,59.1,Strong
+North Dakota,77.5,56.1,43.8,75.0,66.7,63.2,Leading,,,63.8,Leading,57.0,Strong,65.9,Leading,68.6,Leading,61.1,Strong,63.0,Leading
+Ohio,74.7,0.0,30.6,53.5,43.8,39.4,Critical,54.7,Developing,40.5,Critical,24.2,Critical,54.7,Developing,41.8,Critical,36.9,Critical,39.1,Critical
+Oklahoma,55.4,32.7,12.5,85.0,50.0,43.8,Critical,,,47.1,Emerging,38.8,Critical,48.1,Emerging,52.6,Developing,36.5,Critical,43.4,Critical
+Oregon,83.8,69.4,33.3,82.5,85.0,68.5,Leading,,,70.8,Leading,62.0,Strong,68.2,Leading,78.4,Leading,66.0,Leading,67.6,Leading
+Pennsylvania,55.5,86.0,30.0,94.0,100.0,66.4,Leading,,,73.1,Leading,71.1,Leading,58.8,Strong,76.7,Leading,61.6,Strong,64.7,Leading
+Rhode Island,85.8,0.0,42.5,82.5,20.0,48.5,Emerging,67.3,Leading,46.2,Critical,32.5,Critical,67.3,Leading,50.1,Emerging,42.4,Critical,50.0,Emerging
+South Carolina,55.8,0.0,48.7,90.5,50.0,43.5,Critical,60.5,Strong,49.0,Emerging,38.3,Critical,60.5,Strong,42.1,Critical,35.2,Critical,43.2,Critical
+South Dakota,81.0,0.0,64.4,71.0,100.0,54.1,Developing,75.2,Leading,63.3,Leading,42.6,Critical,75.2,Leading,51.2,Emerging,51.1,Emerging,51.7,Emerging
+Tennessee,79.7,26.2,37.5,88.5,88.2,57.2,Strong,,,64.0,Leading,47.5,Emerging,69.2,Leading,62.7,Leading,51.7,Emerging,55.5,Developing
+Texas,47.2,33.9,29.8,60.0,46.2,41.5,Critical,,,43.4,Critical,39.1,Critical,44.5,Critical,44.8,Critical,38.2,Critical,41.3,Critical
+Utah,62.8,11.7,33.3,53.5,85.0,41.7,Critical,,,49.3,Emerging,32.7,Critical,53.4,Developing,44.1,Critical,39.6,Critical,39.4,Critical
+Vermont,68.8,78.6,15.4,46.0,0.0,52.9,Developing,55.7,Developing,41.8,Critical,46.1,Critical,42.9,Critical,63.5,Leading,54.2,Developing,55.7,Developing
+Virginia,51.6,60.8,29.2,85.0,70.0,55.2,Developing,,,59.3,Strong,56.7,Developing,53.0,Developing,62.5,Leading,49.9,Emerging,54.4,Developing
+Washington,58.0,66.4,13.6,84.5,100.0,56.7,Developing,,,64.5,Leading,56.1,Developing,52.9,Developing,68.8,Leading,51.8,Emerging,54.4,Developing
+West Virginia,49.0,0.0,30.8,71.5,10.0,32.7,Critical,45.4,Critical,32.3,Critical,25.7,Critical,45.4,Critical,33.3,Critical,25.9,Critical,33.9,Critical
+Wisconsin,87.1,62.6,34.6,81.0,100.0,68.4,Leading,,,73.1,Leading,60.4,Strong,70.7,Leading,78.0,Leading,66.2,Leading,66.8,Leading
+Wyoming,63.8,59.4,44.0,75.0,30.8,58.2,Strong,,,54.6,Developing,55.9,Developing,57.8,Strong,62.3,Leading,55.3,Developing,59.7,Strong
