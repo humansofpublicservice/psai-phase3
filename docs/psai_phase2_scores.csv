@@ -1,0 +1,52 @@
+rank,state,composite,tier,zero_filled_dimensions,d1_score,d1_status,d1_indicators_confirmed,d1_indicators_total,d1_indicators_couldnt_check,d2_score,d2_status,d2_indicators_confirmed,d2_indicators_total,d2_indicators_couldnt_check,d3_score,d3_status,d3_indicators_confirmed,d3_indicators_total,d3_indicators_couldnt_check,d4_score,d4_status,d4_indicators_confirmed,d4_indicators_total,d4_indicators_couldnt_check,d5_score,d5_status,d5_indicators_confirmed,d5_indicators_total,d5_indicators_couldnt_check
+1,Illinois,71.1,Leading,0,80.5,complete,5,5,0,73.0,partial,1,3,0,45.5,proxy_only,1,2,0,88.5,complete,2,3,0,64.7,partial,3,6,1
+2,California,70.7,Leading,0,76.7,partial,4,5,1,80.0,complete,3,3,0,30.0,proxy_only,1,2,0,96.0,complete,2,3,0,85.0,complete,5,6,0
+3,Nevada,69.6,Leading,0,68.9,complete,5,5,0,69.3,complete,3,3,0,53.9,proxy_only,1,2,0,88.5,complete,2,3,0,87.5,partial,4,6,1
+4,New Jersey,68.6,Leading,0,58.9,complete,5,5,0,80.3,partial,2,3,0,51.5,complete,2,2,0,81.0,complete,2,3,0,100.0,partial,5,6,1
+5,Oregon,68.5,Leading,0,83.8,complete,5,5,0,69.4,partial,1,3,0,33.3,proxy_only,1,2,0,82.5,complete,2,3,0,85.0,complete,5,6,0
+6,Wisconsin,68.4,Leading,0,87.1,complete,5,5,0,62.6,complete,3,3,0,34.6,proxy_only,1,2,0,81.0,complete,2,3,0,100.0,partial,5,6,1
+7,Minnesota,67.6,Leading,1,86.5,complete,5,5,0,77.7,partial,2,3,0,25.0,proxy_only,1,2,0,96.0,complete,2,3,0,0.0,partial,0,6,1
+8,Pennsylvania,66.4,Leading,0,55.5,complete,5,5,0,86.0,complete,3,3,0,30.0,proxy_only,1,2,0,94.0,complete,2,3,0,100.0,partial,3,6,3
+9,Iowa,64.3,Leading,0,83.4,complete,5,5,0,71.8,partial,1,3,0,27.3,proxy_only,1,2,0,81.0,complete,2,3,0,20.0,complete,1,6,0
+10,Maryland,63.2,Leading,0,70.3,complete,5,5,0,85.5,partial,2,3,0,42.6,complete,2,2,0,47.5,not_available,1,3,0,33.3,partial,1,6,3
+11,North Dakota,63.2,Leading,0,77.5,complete,5,5,0,56.1,partial,1,3,0,43.8,proxy_only,1,2,0,75.0,complete,2,3,0,66.7,partial,2,6,3
+12,North Carolina,61.2,Strong,0,54.9,complete,5,5,0,72.4,complete,3,3,0,20.0,proxy_only,1,2,0,100.0,complete,2,3,0,100.0,complete,6,6,0
+13,Massachusetts,60.1,Strong,0,62.9,partial,4,5,1,70.7,partial,1,3,0,32.0,complete,2,2,0,77.0,complete,2,3,0,57.1,partial,1,6,4
+14,Alabama,60.1,Strong,0,63.9,complete,5,5,0,61.3,partial,2,3,0,38.5,proxy_only,1,2,0,78.5,complete,2,3,0,70.0,complete,4,6,0
+15,New Mexico,59.3,Strong,0,83.0,complete,5,5,0,41.0,partial,2,3,0,46.2,proxy_only,1,2,0,73.5,complete,2,3,0,35.0,complete,2,6,0
+16,Montana,59.2,Strong,0,73.2,complete,5,5,0,49.7,partial,2,3,0,35.7,proxy_only,1,2,0,75.0,complete,2,3,0,85.0,complete,5,6,0
+17,Idaho,59.0,Strong,0,71.8,complete,5,5,0,65.9,complete,3,3,0,31.8,proxy_only,1,2,0,72.5,complete,2,3,0,23.5,partial,1,6,1
+18,Michigan,58.3,Strong,1,73.2,complete,5,5,0,74.1,partial,2,3,0,30.0,proxy_only,1,2,0,60.0,not_available,1,3,0,0.0,partial,0,6,4
+19,Wyoming,58.2,Strong,0,63.8,complete,5,5,0,59.4,complete,3,3,0,44.0,complete,2,2,0,75.0,complete,2,3,0,30.8,partial,1,6,2
+20,New York,57.7,Strong,0,49.1,partial,4,5,1,75.8,partial,2,3,0,28.6,proxy_only,1,2,0,80.0,complete,2,3,0,70.0,complete,4,6,0
+21,Tennessee,57.2,Strong,0,79.7,complete,5,5,0,26.2,partial,1,3,0,37.5,proxy_only,1,2,0,88.5,complete,2,3,0,88.2,partial,4,6,1
+22,Washington,56.7,Developing,0,58.0,partial,4,5,1,66.4,partial,1,3,0,13.6,proxy_only,1,2,0,84.5,complete,2,3,0,100.0,partial,5,6,1
+23,Delaware,55.9,Developing,0,48.7,complete,5,5,0,51.0,partial,1,3,0,38.5,proxy_only,1,2,0,90.0,complete,2,3,0,100.0,complete,6,6,0
+24,Alaska,55.4,Developing,0,70.8,complete,5,5,0,54.6,complete,3,3,0,13.6,proxy_only,1,2,0,77.0,complete,2,3,0,87.5,partial,4,6,1
+25,Virginia,55.2,Developing,0,51.6,complete,5,5,0,60.8,complete,3,3,0,29.2,proxy_only,1,2,0,85.0,complete,2,3,0,70.0,complete,4,6,0
+26,South Dakota,54.1,Developing,1,81.0,complete,5,5,0,0.0,not_available,0,3,0,64.4,complete,2,2,0,71.0,complete,2,3,0,100.0,partial,1,6,5
+27,Kentucky,53.2,Developing,0,60.6,complete,5,5,0,45.8,partial,1,3,0,33.3,proxy_only,1,2,0,71.0,complete,2,3,0,85.0,complete,5,6,0
+28,Connecticut,53.1,Developing,0,71.1,complete,5,5,0,16.5,partial,1,3,0,52.1,complete,2,2,0,84.5,complete,2,3,0,60.0,complete,3,6,0
+29,Vermont,52.9,Developing,1,68.8,partial,4,5,1,78.6,complete,3,3,0,15.4,proxy_only,1,2,0,46.0,not_available,1,3,0,0.0,not_available,0,6,6
+30,New Hampshire,52.8,Developing,0,43.6,complete,5,5,0,74.8,complete,3,3,0,45.0,proxy_only,1,2,0,46.0,not_available,1,3,0,40.0,partial,1,6,3
+31,Hawaii,52.0,Developing,0,46.9,partial,4,5,1,57.2,partial,2,3,0,43.3,proxy_only,1,2,0,49.5,not_available,1,3,0,100.0,complete,6,6,0
+32,Mississippi,51.8,Emerging,0,47.6,complete,5,5,0,23.7,partial,1,3,0,55.6,proxy_only,1,2,0,96.0,complete,2,3,0,85.0,complete,5,6,0
+33,Maine,51.3,Emerging,0,55.7,complete,5,5,0,47.8,partial,1,3,0,31.5,complete,2,2,0,77.0,complete,2,3,0,55.0,complete,3,6,0
+34,Indiana,51.2,Emerging,0,56.9,complete,5,5,0,25.1,partial,2,3,0,42.9,proxy_only,1,2,0,90.5,complete,2,3,0,81.2,partial,4,6,1
+35,Colorado,50.7,Emerging,0,55.4,complete,5,5,0,47.5,partial,2,3,0,35.0,complete,2,2,0,54.0,not_available,1,3,0,100.0,partial,3,6,3
+36,Kansas,50.0,Emerging,0,44.9,complete,5,5,0,45.4,partial,2,3,0,32.1,proxy_only,1,2,0,78.5,complete,2,3,0,100.0,partial,5,6,1
+37,Arkansas,48.7,Emerging,0,41.3,partial,4,5,1,31.5,partial,1,3,0,61.5,proxy_only,1,2,0,75.0,complete,2,3,0,55.0,complete,3,6,0
+38,Rhode Island,48.5,Emerging,1,85.8,complete,5,5,0,0.0,not_available,0,3,0,42.5,complete,2,2,0,82.5,complete,2,3,0,20.0,complete,1,6,0
+39,Nebraska,47.4,Emerging,0,63.3,complete,5,5,0,33.7,partial,2,3,0,22.2,proxy_only,1,2,0,72.5,complete,2,3,0,65.0,complete,4,6,0
+40,Georgia,47.3,Emerging,0,35.1,complete,5,5,0,49.7,partial,2,3,0,28.6,proxy_only,1,2,0,87.0,complete,2,3,0,70.0,complete,4,6,0
+41,Arizona,47.1,Emerging,0,42.6,complete,5,5,0,42.3,partial,2,3,0,22.7,proxy_only,1,2,0,83.0,complete,2,3,0,100.0,partial,1,6,5
+42,Louisiana,46.3,Critical,0,37.8,complete,5,5,0,47.4,partial,2,3,0,33.1,complete,2,2,0,82.5,complete,2,3,0,41.2,partial,2,6,1
+43,Oklahoma,43.8,Critical,0,55.4,complete,5,5,0,32.7,partial,2,3,0,12.5,proxy_only,1,2,0,85.0,complete,2,3,0,50.0,complete,3,6,0
+44,South Carolina,43.5,Critical,1,55.8,complete,5,5,0,0.0,not_available,0,3,0,48.7,complete,2,2,0,90.5,complete,2,3,0,50.0,complete,3,6,0
+45,Florida,43.1,Critical,0,33.4,complete,5,5,0,47.7,partial,2,3,0,50.0,proxy_only,1,2,0,45.0,not_available,1,3,0,40.0,partial,1,6,3
+46,Missouri,41.9,Critical,0,47.6,complete,5,5,0,16.8,partial,1,3,0,23.1,proxy_only,1,2,0,90.5,complete,2,3,0,85.0,complete,5,6,0
+47,Utah,41.7,Critical,0,62.8,partial,4,5,1,11.7,partial,1,3,0,33.3,proxy_only,1,2,0,53.5,not_available,1,3,0,85.0,complete,5,6,0
+48,Texas,41.5,Critical,0,47.2,complete,5,5,0,33.9,partial,1,3,0,29.8,complete,2,2,0,60.0,not_available,1,3,0,46.2,partial,2,6,2
+49,District of Columbia,40.3,Critical,1,58.5,partial,4,5,1,54.4,partial,1,3,0,29.2,proxy_only,1,2,0,0.0,complete,2,3,0,22.2,partial,1,6,3
+50,Ohio,39.4,Critical,1,74.7,complete,5,5,0,0.0,not_available,0,3,0,30.6,complete,2,2,0,53.5,not_available,1,3,0,43.8,partial,2,6,1
+51,West Virginia,32.7,Critical,1,49.0,complete,5,5,0,0.0,not_available,0,3,0,30.8,proxy_only,1,2,0,71.5,complete,2,3,0,10.0,complete,1,6,0
