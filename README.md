@@ -8,6 +8,7 @@ This repo hosts the interactive review package itself, plus the evidence layer b
 
 - **[PSAI Review Dossier](https://humansofpublicservice.github.io/psai-phase3/)**: methodology, what changed between Phase 1 and Phase 2, open questions for reviewers.
 - **[PSAI Results dashboard](https://humansofpublicservice.github.io/psai-phase3/results.html)**: the rebuilt composite and per-dimension scores for all 51 jurisdictions, with per-state provenance.
+- **[Scores CSV](https://humansofpublicservice.github.io/psai-phase3/psai_phase2_scores.csv)**: flat download of the same 51 rows (rank, composite, tier, five dimension scores, per-dimension status and indicator counts), no JavaScript needed.
 
 ## What's in this repo
 
