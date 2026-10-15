@@ -103,4 +103,5 @@ def main():
                       "median_pct_same_tier": statistics.median(p["pct_draws_same_tier"] for p in per_state),
                       "influence": infl, "correlations": cm, "per_state": per_state}, indent=1))
 
-main()
+if __name__ == "__main__":
+    main()

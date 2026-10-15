@@ -20,7 +20,7 @@ This repo hosts the interactive review package itself, plus the evidence layer b
 | `d3-public-perception/` | 22% | Rebuild methodology, scores, the polls dataset, and the poll-finder and sentiment-analyzer agent definitions |
 | `d4-investment-in-people/` | 15% | Project rules (CLAUDE.md), scored evidence file, and the collector, fact-checker, and standardizer agent definitions |
 | `d5-recognition-infrastructure/` | 5% | Methodology, 306-row evidence file (51 states times 6 indicators), and the collection and audit agent definitions |
-| `composite/` | n/a | `PSAI_CompositeScores_Rebuilt.xlsx`, joining each dimension's own final score file by state name rather than row position; `robustness.py` and `robustness_results.json`, the composite-level weight-perturbation check and zero-fill comparison cited in Dossier Questions 01 and 02 (run `python3 composite/robustness.py`, standard library only) |
+| `composite/` | n/a | `PSAI_CompositeScores_Rebuilt.xlsx`, joining each dimension's own final score file by state name rather than row position; `robustness.py` and `robustness_results.json`, the composite-level weight-perturbation check and zero-fill comparison cited in Dossier Questions 01 and 02 (run `python3 composite/robustness.py`, standard library only) ; `methods_spec.csv`, one row per scored indicator with source, year, transformation, coverage and missing-data rule; `alternatives.csv` (from `alternatives.py`), every state's composite and tier under zero-dropped, equal-weight and drop-one-dimension scenarios; `spot_check_pack.csv`, 40 randomly drawn evidence cells (seed 20261013, stratified by dimension) with links and a blank column for the reviewer's result |
 
 ## What's not here, on purpose
 
@@ -32,7 +32,7 @@ Internal working notes from the review process also aren't included here, this r
 
 The per-dimension evidence, methodology, and agent-definition files are copied, unmodified, from the Phase 2 project build (`PSAI_Index_Project_2026`). If you find a discrepancy between one of those files and what the Dossier says about it, the file here is the source of truth, flag it.
 
-Two exceptions: `docs/` holds the Dossier and Dashboard themselves, the narrative and interactive layer, not raw evidence, `composite/robustness.py` and its output are new analysis written for the academic review, and `composite/PSAI_CompositeScores_Rebuilt.xlsx` is a corrected rebuild of the Phase 2 project's original composite file, not a copy of it. The original had a data bug (dimension scores joined by row position instead of by state name); the corrected version and the reasoning behind it are described in the Dossier's Question 01.
+Two exceptions: `docs/` holds the Dossier and Dashboard themselves, the narrative and interactive layer, not raw evidence, `composite/robustness.py`, `alternatives.py`, `methods_spec.csv`, `spot_check_pack.csv` and their outputs are new analysis and reviewer aids written for the academic review, and `composite/PSAI_CompositeScores_Rebuilt.xlsx` is a corrected rebuild of the Phase 2 project's original composite file, not a copy of it. The original had a data bug (dimension scores joined by row position instead of by state name); the corrected version and the reasoning behind it are described in the Dossier's Question 01.
 
 ## Jurisdiction names across files
 
