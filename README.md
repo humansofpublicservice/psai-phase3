@@ -21,7 +21,7 @@ This repo hosts the interactive review package itself, plus the evidence layer b
 | `d3-public-perception/` | 22% | Rebuild methodology, scores, the polls dataset, and the poll-finder and sentiment-analyzer agent definitions |
 | `d4-investment-in-people/` | 15% | Project rules (CLAUDE.md), scored evidence file, and the collector, fact-checker, and standardizer agent definitions |
 | `d5-recognition-infrastructure/` | 5% | Methodology, 306-row evidence file (51 states times 6 indicators), and the collection and audit agent definitions |
-| `composite/` | n/a | `PSAI_CompositeScores_Rebuilt.xlsx`, joining each dimension's own final score file by state name rather than row position; `robustness.py` and `robustness_results.json`, the composite-level weight-perturbation check and zero-fill comparison cited in Dossier Questions 01 and 02 (run `python3 composite/robustness.py`, standard library only) ; `methods_spec.csv`, one row per scored indicator with source, year, transformation, coverage and missing-data rule; `alternatives.csv` (from `alternatives.py`), every state's composite and tier under zero-dropped, equal-weight and drop-one-dimension scenarios; `spot_check_pack.csv`, 40 randomly drawn evidence cells (seed 20261013, stratified by dimension) with links and a blank column for the reviewer's result |
+| `composite/` | n/a | `PSAI_CompositeScores_Rebuilt.xlsx`, joining each dimension's own final score file by state name rather than row position; `robustness.py` and `robustness_results.json`, the composite-level weight-perturbation check and zero-fill comparison cited in Dossier Questions 01 and 02 (run `python3 composite/robustness.py`, standard library only) ; `methods_spec.csv`, one row per scored indicator with source, year, transformation, coverage and missing-data rule; `alternatives.csv` (from `alternatives.py`), every state's composite and tier under zero-dropped, equal-weight and drop-one-dimension scenarios; `regenerate.py` and `spot_check_protocol.md`; `spot_check_pack.csv`, 40 randomly drawn evidence cells (seed 20261013, stratified by dimension) with links and a blank column for the reviewer's result |
 
 ## What's not here, on purpose
 
@@ -33,16 +33,19 @@ Internal working notes from the review process also aren't included here, this r
 
 The per-dimension evidence, methodology, and agent-definition files are copied, unmodified, from the Phase 2 project build (`PSAI_Index_Project_2026`). If you find a discrepancy between one of those files and what the Dossier says about it, the file here is the source of truth, flag it.
 
-Two exceptions: `docs/` holds the Dossier and Dashboard themselves, the narrative and interactive layer, not raw evidence, `composite/robustness.py`, `alternatives.py`, `methods_spec.csv`, `spot_check_pack.csv` and their outputs are new analysis and reviewer aids written for the academic review, and `composite/PSAI_CompositeScores_Rebuilt.xlsx` is a corrected rebuild of the Phase 2 project's original composite file, not a copy of it. The original had a data bug (dimension scores joined by row position instead of by state name); the corrected version and the reasoning behind it are described in the Dossier's Question 01.
+Three exceptions to "unmodified" (all documented in CHANGELOG.md): the D.C. row of `dimension4_pd_revised.csv` now carries D4 = 70, and the D.C. jurisdiction name was unified in `dimension2_scores.csv`, `d3_scores.csv`, `polls.csv` and `d5_evidence.csv`. Two further exceptions: `docs/` holds the Dossier and Dashboard themselves, the narrative and interactive layer, not raw evidence, `composite/robustness.py`, `alternatives.py`, `methods_spec.csv`, `spot_check_pack.csv` and their outputs are new analysis and reviewer aids written for the academic review, and `composite/PSAI_CompositeScores_Rebuilt.xlsx` is a corrected rebuild of the Phase 2 project's original composite file, not a copy of it. The original had a data bug (dimension scores joined by row position instead of by state name); the corrected version and the reasoning behind it are described in the Dossier's Question 01.
 
 ## Jurisdiction names across files
 
-The evidence files do not spell every jurisdiction the same way. The composite joins by name, so these variants matter if you merge files yourself. Only the District of Columbia varies:
+As of version 2 every file spells the District of Columbia the same way ("District of Columbia"), so files can be merged by name without a lookup. State of Washington appears as "Washington" in all files. Prose in the methodology documents still says "Washington, D.C."; that does not affect any data file.
 
-| File | Spelling |
-|---|---|
-| `d1_evidence.csv`, `dimension4_pd_revised.csv`, `PSAI_CompositeScores_Rebuilt.xlsx` | District of Columbia |
-| `dimension2_scores.csv`, `d3_scores.csv`, `polls.csv` | Washington, D.C. |
-| `d5_evidence.csv` | Washington DC |
+## Version and regeneration
 
-State of Washington appears as "Washington" in all files.
+Current version: 2 (2026-10-26); see [CHANGELOG.md](CHANGELOG.md). Every composite figure comes from one chain, run from the repo root:
+
+```
+python3 composite/regenerate.py      # workbook cached values and Ranked column, docs/psai_phase2_scores.csv, docs/results.html data
+cd composite && python3 robustness.py > robustness_results.json && python3 alternatives.py > alternatives.csv
+```
+
+`spot_check_protocol.md` states the provisional pass rule for `spot_check_pack.csv`.
